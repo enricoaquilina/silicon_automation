@@ -1,0 +1,39 @@
+{
+  "mongodb": {
+    "uri": "mongodb://192.168.1.100:27017/",
+    "database": "silicon_sentiments"
+  },
+  "image_generation": {
+    "providers": {
+      "replicate": {
+        "api_token": "your_replicate_api_token_here",
+        "default_model": "flux_dev",
+        "preferred_models": ["flux_dev", "sdxl", "playground_v2"],
+        "max_retries": 3,
+        "timeout": 300
+      }
+    },
+    "default_strategy": "brand_optimized",
+    "max_concurrent_generations": 3,
+    "max_cost_per_generation": 0.10
+  },
+  "brand_settings": {
+    "style_prompts": {
+      "siliconsentiments_base": "digital art, modern, clean aesthetic, tech-inspired, silicon valley vibes",
+      "instagram_optimized": "vibrant colors, high contrast, visually striking, instagram ready"
+    },
+    "negative_prompts": [
+      "blurry", "low quality", "distorted", "text", "watermark", "nsfw"
+    ],
+    "preferred_dimensions": {
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "automation": {
+    "auto_generate_missing": false,
+    "max_daily_generations": 10,
+    "preferred_generation_time": "09:00",
+    "analysis_frequency": "daily"
+  }
+}
