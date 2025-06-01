@@ -1,0 +1,3 @@
+[submodule "ss_automation"]
+	path = ss_automation
+	url = https://github.com/enricoaquilina/ss_automation.git
