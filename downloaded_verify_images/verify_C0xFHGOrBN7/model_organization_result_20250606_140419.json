@@ -1,0 +1,74 @@
+{
+  "success": true,
+  "base_directory": "downloaded_verify_images/verify_C0xFHGOrBN7/",
+  "model_directories": {
+    "recraft": {
+      "base": "downloaded_verify_images/verify_C0xFHGOrBN7/recraft_model",
+      "upscaled": "downloaded_verify_images/verify_C0xFHGOrBN7/recraft_model/upscaled_images",
+      "videos": "downloaded_verify_images/verify_C0xFHGOrBN7/recraft_model/videos",
+      "description": "Recraft v3 - Professional design model"
+    },
+    "flux": {
+      "base": "downloaded_verify_images/verify_C0xFHGOrBN7/flux_model",
+      "upscaled": "downloaded_verify_images/verify_C0xFHGOrBN7/flux_model/upscaled_images",
+      "videos": "downloaded_verify_images/verify_C0xFHGOrBN7/flux_model/videos",
+      "description": "Flux 1.1 Pro - Advanced AI generation"
+    },
+    "sdxl": {
+      "base": "downloaded_verify_images/verify_C0xFHGOrBN7/sdxl_model",
+      "upscaled": "downloaded_verify_images/verify_C0xFHGOrBN7/sdxl_model/upscaled_images",
+      "videos": "downloaded_verify_images/verify_C0xFHGOrBN7/sdxl_model/videos",
+      "description": "Stable Diffusion XL - High-resolution generation"
+    },
+    "kandinsky": {
+      "base": "downloaded_verify_images/verify_C0xFHGOrBN7/kandinsky_model",
+      "upscaled": "downloaded_verify_images/verify_C0xFHGOrBN7/kandinsky_model/upscaled_images",
+      "videos": "downloaded_verify_images/verify_C0xFHGOrBN7/kandinsky_model/videos",
+      "description": "Kandinsky - Artistic AI model"
+    }
+  },
+  "moved_files": {
+    "recraft": [
+      "C0xFHGOrBN7_recraft_fixed_recraft_v1_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v1_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v2_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v3_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v4_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v1_upscaled.jpg",
+      "C0xFHGOrBN7_complete_recraft_v1_upscaled.jpg",
+      "C0xFHGOrBN7_recraft_fixed_recraft_v2_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v3_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v4_upscaled.jpg",
+      "C0xFHGOrBN7_recraft_fixed_recraft_v3_upscaled.jpg",
+      "C0xFHGOrBN7_recraft_fixed_recraft_v4_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v2_upscaled.jpg"
+    ],
+    "flux": [
+      "C0xFHGOrBN7_best_flux11pro_v1_upscaled.jpg",
+      "C0xFHGOrBN7_complete_flux11pro_v1_upscaled.jpg"
+    ],
+    "sdxl": [
+      "C0xFHGOrBN7_complete_sdxl_v1_upscaled.jpg",
+      "C0xFHGOrBN7_best_sdxl_v3_upscaled.jpg",
+      "C0xFHGOrBN7_best_sdxl_v4_upscaled.jpg",
+      "C0xFHGOrBN7_best_sdxl_v2_upscaled.jpg",
+      "C0xFHGOrBN7_best_sdxl_v1_upscaled.jpg",
+      "C0xFHGOrBN7_complete_sdxl_v3_upscaled.jpg",
+      "C0xFHGOrBN7_complete_sdxl_v4_upscaled.jpg",
+      "C0xFHGOrBN7_complete_sdxl_v2_upscaled.jpg"
+    ],
+    "kandinsky": [
+      "C0xFHGOrBN7_complete_kandinsky_v1_upscaled.jpg",
+      "C0xFHGOrBN7_complete_kandinsky_v3_upscaled.jpg",
+      "C0xFHGOrBN7_complete_kandinsky_v4_upscaled.jpg",
+      "C0xFHGOrBN7_complete_kandinsky_v2_upscaled.jpg"
+    ]
+  },
+  "compilations": {},
+  "audio_file": "downloaded_verify_images/verify_C0xFHGOrBN7/04_videos/C0xFHGOrBN7_multimedia_recraft_v2_audio.mp3",
+  "summary_file": "downloaded_verify_images/verify_C0xFHGOrBN7/MODEL_ORGANIZATION_SUMMARY.md",
+  "total_images_organized": 27,
+  "total_compilations_created": 0,
+  "duration_seconds": 0.355418,
+  "timestamp": "2025-06-06T14:04:19.848474"
+}

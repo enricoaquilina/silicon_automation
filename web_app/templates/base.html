@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}SiliconSentiments Image Generation{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: transform 0.2s; }
+        .card-hover:hover { transform: translateY(-2px); }
+        .silicon-gradient { background: linear-gradient(45deg, #00d4ff, #5a67d8, #9f7aea); }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Navigation -->
+    <nav class="gradient-bg shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-microchip text-white text-2xl"></i>
+                        <span class="text-white text-xl font-bold">SiliconSentiments</span>
+                    </div>
+                    <span class="text-blue-200 text-sm">Image Generation Studio</span>
+                </div>
+                
+                <div class="flex items-center space-x-6">
+                    <a href="{{ url_for('dashboard') }}" class="text-white hover:text-blue-200 transition-colors">
+                        <i class="fas fa-chart-line mr-2"></i>Dashboard
+                    </a>
+                    <a href="{{ url_for('posts_list') }}" class="text-white hover:text-blue-200 transition-colors">
+                        <i class="fas fa-images mr-2"></i>Posts
+                    </a>
+                    <a href="https://instagram.com/siliconsentiments_art" target="_blank" class="text-white hover:text-blue-200 transition-colors">
+                        <i class="fab fa-instagram mr-2"></i>Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="flex items-center justify-center space-x-2 mb-4">
+                <i class="fas fa-microchip text-blue-400"></i>
+                <span class="font-semibold">SiliconSentiments</span>
+                <span class="text-gray-400">Automated Image Generation</span>
+            </div>
+            <p class="text-gray-400 text-sm">
+                Multi-provider image generation with VLM analysis and brand-consistent prompts
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        // Global utilities
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            toast.className = `fixed top-4 right-4 p-4 rounded-lg shadow-lg z-50 ${
+                type === 'success' ? 'bg-green-500' : 
+                type === 'error' ? 'bg-red-500' : 
+                'bg-blue-500'
+            } text-white`;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.remove();
+            }, 5000);
+        }
+
+        function formatCost(cost) {
+            return '$' + cost.toFixed(4);
+        }
+
+        function formatDate(dateString) {
+            return new Date(dateString).toLocaleString();
+        }
+    </script>
+    
+    {% block scripts %}{% endblock %}
+</body>
+</html>

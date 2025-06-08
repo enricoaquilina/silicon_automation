@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "total_processed": 5,
+    "successful": 0,
+    "failed": 5,
+    "total_cost": 0,
+    "models_used": {
+      "vlm": "blip",
+      "flux": "flux-schnell"
+    },
+    "prompt_style": "advanced",
+    "timestamp": "2025-06-05T22:32:08.137586"
+  },
+  "results": [
+    {
+      "success": false,
+      "error": "VLM analysis failed: Object of type bytes is not JSON serializable",
+      "shortcode": "C0wmEEKItfR"
+    },
+    {
+      "success": false,
+      "error": "VLM analysis failed: Object of type bytes is not JSON serializable",
+      "shortcode": "C0xFHGOrBN7"
+    },
+    {
+      "success": false,
+      "error": "VLM analysis failed: Object of type bytes is not JSON serializable",
+      "shortcode": "C0xMpxwKoxb"
+    },
+    {
+      "success": false,
+      "error": "VLM analysis failed: Object of type bytes is not JSON serializable",
+      "shortcode": "C0wysT_LC-L"
+    },
+    {
+      "success": false,
+      "error": "VLM analysis failed: Object of type bytes is not JSON serializable",
+      "shortcode": "C0xLaimIm1B"
+    }
+  ]
+}

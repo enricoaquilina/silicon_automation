@@ -1,0 +1,28 @@
+{
+  "images": {
+    "success": true,
+    "files": [
+      "test_sdxl_v1.jpg",
+      "test_sdxl_v2.jpg"
+    ],
+    "cost": 0.004,
+    "time": 18.267764
+  },
+  "upscale": {
+    "success": true,
+    "file": "test_upscaled_140321.jpg",
+    "cost": 0.002,
+    "time": 12.302915
+  },
+  "video": {
+    "success": true,
+    "file": "test_video_140551.mp4",
+    "size_mb": 2.911505699157715,
+    "cost": 0.0005,
+    "time": 147.068275
+  },
+  "music": {
+    "success": false,
+    "error": "Status 422"
+  }
+}

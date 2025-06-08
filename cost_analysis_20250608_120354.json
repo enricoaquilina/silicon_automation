@@ -1,0 +1,105 @@
+{
+  "strategies": {
+    "budget": {
+      "models": [
+        "sdxl",
+        "kandinsky-2.2",
+        "janus-pro-7b"
+      ],
+      "total_images": 9,
+      "image_generation": 0.021,
+      "upscaling": 0.018000000000000002,
+      "video_generation": 4.199999999999999,
+      "music_generation": 0.006,
+      "total": 4.244999999999999,
+      "cost_per_model": 1.4149999999999998,
+      "video_model": "kling-v2.0"
+    },
+    "balanced": {
+      "models": [
+        "sdxl",
+        "kandinsky-2.2",
+        "recraft-v3",
+        "leonardo-phoenix"
+      ],
+      "total_images": 16,
+      "image_generation": 0.048,
+      "upscaling": 0.032,
+      "video_generation": 5.6,
+      "music_generation": 0.008,
+      "total": 5.688,
+      "cost_per_model": 1.422,
+      "video_model": "kling-v2.0"
+    },
+    "premium": {
+      "models": [
+        "sdxl",
+        "recraft-v3",
+        "leonardo-phoenix",
+        "flux-1.1-pro"
+      ],
+      "total_images": 20,
+      "image_generation": 0.07500000000000001,
+      "upscaling": 0.04,
+      "video_generation": 5.6,
+      "music_generation": 0.008,
+      "total": 5.723,
+      "cost_per_model": 1.43075,
+      "video_model": "kling-v2.0"
+    },
+    "hunyuan_test": {
+      "models": [
+        "sdxl",
+        "recraft-v3",
+        "leonardo-phoenix"
+      ],
+      "total_images": 12,
+      "image_generation": 0.04,
+      "upscaling": 0.024,
+      "video_generation": 6.0600000000000005,
+      "music_generation": 0.006,
+      "total": 6.130000000000001,
+      "cost_per_model": 2.0433333333333334,
+      "video_model": "hunyuan-video"
+    },
+    "luxury": {
+      "models": [
+        "recraft-v3",
+        "leonardo-phoenix",
+        "flux-1.1-pro"
+      ],
+      "total_images": 15,
+      "image_generation": 0.065,
+      "upscaling": 0.03,
+      "video_generation": 18.0,
+      "music_generation": 0.006,
+      "total": 18.101,
+      "cost_per_model": 6.033666666666666,
+      "video_model": "google-veo-3"
+    }
+  },
+  "execution_result": {
+    "success": true,
+    "strategy": "balanced",
+    "estimated_costs": {
+      "models": [
+        "sdxl",
+        "kandinsky-2.2",
+        "recraft-v3",
+        "leonardo-phoenix"
+      ],
+      "total_images": 16,
+      "image_generation": 0.048,
+      "upscaling": 0.032,
+      "video_generation": 5.6,
+      "music_generation": 0.008,
+      "total": 5.688,
+      "cost_per_model": 1.422,
+      "video_model": "kling-v2.0"
+    },
+    "simulated": true,
+    "duration_seconds": 2.001252,
+    "recommendation": "Use BALANCED strategy for best value"
+  },
+  "timestamp": "2025-06-08T12:03:54.961137"
+}

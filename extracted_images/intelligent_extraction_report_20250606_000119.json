@@ -1,0 +1,254 @@
+{
+  "summary": {
+    "total_tests": 5,
+    "successful_tests": 3,
+    "success_rate": 60.0,
+    "meets_success_criteria": false,
+    "learning_database_size": 5,
+    "total_extraction_attempts": 5
+  },
+  "strategy_analysis": {
+    "strategy_usage": {
+      "snapshot_parsing": 5
+    },
+    "strategy_success_rates": {
+      "snapshot_parsing": 60.0
+    },
+    "learned_success_rates": {
+      "snapshot_parsing": 0.6518400000000001
+    }
+  },
+  "individual_results": {
+    "C0xFHGOrBN7": {
+      "success": false,
+      "shortcode": "C0xFHGOrBN7",
+      "expected_images": 3,
+      "extracted_images": 1,
+      "downloaded_images": [
+        {
+          "index": 1,
+          "filename": "intelligent_C0xFHGOrBN7_image_1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/extracted_images/intelligent_C0xFHGOrBN7/intelligent_C0xFHGOrBN7_image_1.jpg",
+          "url": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/snapshot_C0xFHGOrBN7_1_1440x1440_n.jpg",
+          "size_bytes": 1024,
+          "hash": "08002d2a2a3d784d544d6103727b8093"
+        }
+      ],
+      "duration_seconds": 4.009084939956665,
+      "strategy_used": "snapshot_parsing",
+      "is_carousel": true,
+      "extraction_method": "intelligent_agent",
+      "timestamp": "2025-06-06T00:01:00.525028",
+      "agent_version": "intelligent_v1.0"
+    },
+    "C0wmEEKItfR": {
+      "success": false,
+      "shortcode": "C0wmEEKItfR",
+      "expected_images": 10,
+      "extracted_images": 1,
+      "downloaded_images": [
+        {
+          "index": 1,
+          "filename": "intelligent_C0wmEEKItfR_image_1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/extracted_images/intelligent_C0wmEEKItfR/intelligent_C0wmEEKItfR_image_1.jpg",
+          "url": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/snapshot_C0wmEEKItfR_1_1440x1440_n.jpg",
+          "size_bytes": 1024,
+          "hash": "a8d039fbe854b3dbb4a236ac1d110b5d"
+        }
+      ],
+      "duration_seconds": 4.0078980922698975,
+      "strategy_used": "snapshot_parsing",
+      "is_carousel": true,
+      "extraction_method": "intelligent_agent",
+      "timestamp": "2025-06-06T00:01:05.034084",
+      "agent_version": "intelligent_v1.0"
+    },
+    "C0xMpxwKoxb": {
+      "success": true,
+      "shortcode": "C0xMpxwKoxb",
+      "expected_images": 1,
+      "extracted_images": 1,
+      "downloaded_images": [
+        {
+          "index": 1,
+          "filename": "intelligent_C0xMpxwKoxb_image_1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/extracted_images/intelligent_C0xMpxwKoxb/intelligent_C0xMpxwKoxb_image_1.jpg",
+          "url": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/snapshot_C0xMpxwKoxb_1_1440x1440_n.jpg",
+          "size_bytes": 1024,
+          "hash": "d4d3a31dcb5bf4f85b23d9e5cb65d23c"
+        }
+      ],
+      "duration_seconds": 4.008221864700317,
+      "strategy_used": "snapshot_parsing",
+      "is_carousel": false,
+      "extraction_method": "intelligent_agent",
+      "timestamp": "2025-06-06T00:01:09.543490",
+      "agent_version": "intelligent_v1.0"
+    },
+    "C0wysT_LC-L": {
+      "success": true,
+      "shortcode": "C0wysT_LC-L",
+      "expected_images": 1,
+      "extracted_images": 1,
+      "downloaded_images": [
+        {
+          "index": 1,
+          "filename": "intelligent_C0wysT_LC-L_image_1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/extracted_images/intelligent_C0wysT_LC-L/intelligent_C0wysT_LC-L_image_1.jpg",
+          "url": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/snapshot_C0wysT_LC-L_1_1440x1440_n.jpg",
+          "size_bytes": 1024,
+          "hash": "32f1b2dab71cc8049c7fe5f8b4c73493"
+        }
+      ],
+      "duration_seconds": 4.008007049560547,
+      "strategy_used": "snapshot_parsing",
+      "is_carousel": false,
+      "extraction_method": "intelligent_agent",
+      "timestamp": "2025-06-06T00:01:14.052672",
+      "agent_version": "intelligent_v1.0"
+    },
+    "C0xLaimIm1B": {
+      "success": true,
+      "shortcode": "C0xLaimIm1B",
+      "expected_images": 1,
+      "extracted_images": 1,
+      "downloaded_images": [
+        {
+          "index": 1,
+          "filename": "intelligent_C0xLaimIm1B_image_1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/extracted_images/intelligent_C0xLaimIm1B/intelligent_C0xLaimIm1B_image_1.jpg",
+          "url": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/snapshot_C0xLaimIm1B_1_1440x1440_n.jpg",
+          "size_bytes": 1024,
+          "hash": "4fc82ea4bc8f2a09cc7aa863a94dee78"
+        }
+      ],
+      "duration_seconds": 4.008410215377808,
+      "strategy_used": "snapshot_parsing",
+      "is_carousel": false,
+      "extraction_method": "intelligent_agent",
+      "timestamp": "2025-06-06T00:01:18.562271",
+      "agent_version": "intelligent_v1.0"
+    }
+  },
+  "learning_database": {
+    "C0xFHGOrBN7": {
+      "popup_patterns": [
+        "button:has-text(\"Accept All\")"
+      ],
+      "total_attempts": 1
+    },
+    "C0wmEEKItfR": {
+      "popup_patterns": [
+        "button:has-text(\"Accept All\")"
+      ],
+      "total_attempts": 1
+    },
+    "C0xMpxwKoxb": {
+      "popup_patterns": [
+        "button:has-text(\"Accept All\")"
+      ],
+      "best_strategy": "snapshot_parsing",
+      "successful_extractions": 1,
+      "total_attempts": 1
+    },
+    "C0wysT_LC-L": {
+      "popup_patterns": [
+        "button:has-text(\"Accept All\")"
+      ],
+      "best_strategy": "snapshot_parsing",
+      "successful_extractions": 1,
+      "total_attempts": 1
+    },
+    "C0xLaimIm1B": {
+      "popup_patterns": [
+        "button:has-text(\"Accept All\")"
+      ],
+      "best_strategy": "snapshot_parsing",
+      "successful_extractions": 1,
+      "total_attempts": 1
+    }
+  },
+  "extraction_history": [
+    {
+      "shortcode": "C0xFHGOrBN7",
+      "strategy": "snapshot_parsing",
+      "success": true,
+      "images_found": 3,
+      "duration": 5.6743621826171875e-05
+    },
+    {
+      "shortcode": "C0wmEEKItfR",
+      "strategy": "snapshot_parsing",
+      "success": true,
+      "images_found": 10,
+      "duration": 3.1948089599609375e-05
+    },
+    {
+      "shortcode": "C0xMpxwKoxb",
+      "strategy": "snapshot_parsing",
+      "success": true,
+      "images_found": 1,
+      "duration": 2.6941299438476562e-05
+    },
+    {
+      "shortcode": "C0wysT_LC-L",
+      "strategy": "snapshot_parsing",
+      "success": true,
+      "images_found": 1,
+      "duration": 2.5033950805664062e-05
+    },
+    {
+      "shortcode": "C0xLaimIm1B",
+      "strategy": "snapshot_parsing",
+      "success": true,
+      "images_found": 1,
+      "duration": 2.7894973754882812e-05
+    }
+  ],
+  "test_shortcodes": {
+    "C0xFHGOrBN7": {
+      "type": "carousel",
+      "expected_images": 3,
+      "description": "Small carousel - 3 images",
+      "known_issues": [
+        "duplicate detection",
+        "mixed dates"
+      ]
+    },
+    "C0wmEEKItfR": {
+      "type": "carousel",
+      "expected_images": 10,
+      "description": "Large carousel - 10 images",
+      "known_issues": [
+        "navigation timing",
+        "related posts mixing"
+      ]
+    },
+    "C0xMpxwKoxb": {
+      "type": "single",
+      "expected_images": 1,
+      "description": "Single post - 1 image",
+      "known_issues": [
+        "false carousel detection"
+      ]
+    },
+    "C0wysT_LC-L": {
+      "type": "single",
+      "expected_images": 1,
+      "description": "Single post - 1 image",
+      "known_issues": [
+        "container detection"
+      ]
+    },
+    "C0xLaimIm1B": {
+      "type": "single",
+      "expected_images": 1,
+      "description": "Single post - 1 image",
+      "known_issues": [
+        "popup interference"
+      ]
+    }
+  },
+  "timestamp": "2025-06-06T00:01:19.063727",
+  "agent_version": "intelligent_v1.0"
+}

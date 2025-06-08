@@ -1,0 +1,85 @@
+{
+  "success": true,
+  "directory": "downloaded_verify_images/verify_C0xFHGOrBN7/",
+  "organized_structure": {
+    "01_original": "downloaded_verify_images/verify_C0xFHGOrBN7/01_original",
+    "02_generations": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations",
+    "03_upscaled": "downloaded_verify_images/verify_C0xFHGOrBN7/03_upscaled",
+    "04_videos": "downloaded_verify_images/verify_C0xFHGOrBN7/04_videos",
+    "05_final": "downloaded_verify_images/verify_C0xFHGOrBN7/05_final",
+    "archive": "downloaded_verify_images/verify_C0xFHGOrBN7/archive"
+  },
+  "moved_files": {
+    "01_original": [
+      "C0xFHGOrBN7_original.png"
+    ],
+    "02_generations": [
+      "C0xFHGOrBN7_best_sdxl_v3.jpg",
+      "C0xFHGOrBN7_best_flux11pro_v1.jpg",
+      "C0xFHGOrBN7_complete_sdxl_v2.jpg",
+      "C0xFHGOrBN7_complete_sdxl_v3.jpg",
+      "C0xFHGOrBN7_best_sdxl_v2.jpg",
+      "C0xFHGOrBN7_complete_sdxl_v1.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v4.jpg",
+      "C0xFHGOrBN7_best_sdxl_v1.jpg",
+      "C0xFHGOrBN7_complete_sdxl_v4.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v1.jpg",
+      "C0xFHGOrBN7_best_sdxl_v4.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v2.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v3.jpg",
+      "C0xFHGOrBN7_recraft_fixed_recraft_v1.jpg",
+      "C0xFHGOrBN7_recraft_fixed_recraft_v2.jpg",
+      "C0xFHGOrBN7_complete_flux11pro_v1.jpg",
+      "C0xFHGOrBN7_recraft_fixed_recraft_v3.jpg",
+      "C0xFHGOrBN7_recraft_fixed_recraft_v4.jpg",
+      "C0xFHGOrBN7_complete_recraft_v1.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v4.jpg",
+      "C0xFHGOrBN7_complete_kandinsky_v4.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v2.jpg",
+      "C0xFHGOrBN7_complete_kandinsky_v1.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v3.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v1.jpg",
+      "C0xFHGOrBN7_complete_kandinsky_v3.jpg",
+      "C0xFHGOrBN7_complete_kandinsky_v2.jpg"
+    ],
+    "03_upscaled": [
+      "C0xFHGOrBN7_multimedia_recraft_v1_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_test_recraft_v1_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v3_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v4_upscaled.jpg",
+      "C0xFHGOrBN7_multimedia_recraft_v2_upscaled.jpg"
+    ],
+    "04_videos": [
+      "C0xFHGOrBN7_multimedia_recraft_v1_hd_video.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v1_hd_video_with_audio.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v2_hd_video_with_audio.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v4_hd_video_with_audio.mp4",
+      "C0xFHGOrBN7_multimedia_test_recraft_v1_hd_video.mp4",
+      "C0xFHGOrBN7_multimedia_test_recraft_v1_hd_video_with_audio.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v2_hd_video.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v4_hd_video.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v3_hd_video.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v3_hd_video_with_audio.mp4",
+      "C0xFHGOrBN7_multimedia_recraft_v2_audio.mp3",
+      "C0xFHGOrBN7_multimedia_recraft_v3_audio.mp3",
+      "C0xFHGOrBN7_multimedia_recraft_v1_audio.mp3"
+    ],
+    "05_final": [
+      "SiliconSentiments_C0xFHGOrBN7_final_compilation.mp4",
+      "concatenation_result_20250606_130852.json",
+      "SiliconSentiments_C0xFHGOrBN7_final_compilation_info.json",
+      "multimedia_content_result_C0xFHGOrBN7_multimedia_test.json",
+      "upscaled_multimedia_result_20250606_124559.json",
+      "enhanced_multi_model_result_C0xFHGOrBN7_recraft_fixed.json",
+      "enhanced_multi_model_result_C0xFHGOrBN7_best.json",
+      "enhanced_multi_model_result_C0xFHGOrBN7_complete.json"
+    ],
+    "archive": [
+      "C0xFHGOrBN7_multimedia_test_video.mp4"
+    ]
+  },
+  "summary_file": "downloaded_verify_images/verify_C0xFHGOrBN7/DIRECTORY_STRUCTURE.md",
+  "total_files_organized": 55,
+  "duration_seconds": 0.008103,
+  "timestamp": "2025-06-06T13:12:31.330878"
+}

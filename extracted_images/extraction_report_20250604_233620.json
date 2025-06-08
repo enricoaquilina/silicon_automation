@@ -1,0 +1,86 @@
+{
+  "summary": {
+    "total_tests": 5,
+    "successful_tests": 0,
+    "success_rate": 0.0,
+    "avg_duration": 0,
+    "total_images": 0,
+    "meets_success_criteria": false
+  },
+  "individual_results": {
+    "C0xFHGOrBN7": {
+      "success": false,
+      "error": "Navigation failed"
+    },
+    "C0wmEEKItfR": {
+      "success": false,
+      "error": "Navigation failed"
+    },
+    "C0xMpxwKoxb": {
+      "success": false,
+      "error": "Navigation failed"
+    },
+    "C0wysT_LC-L": {
+      "success": false,
+      "error": "Navigation failed"
+    },
+    "C0xLaimIm1B": {
+      "success": false,
+      "error": "Navigation failed"
+    }
+  },
+  "test_shortcodes": {
+    "C0xFHGOrBN7": {
+      "type": "carousel",
+      "expected_images": 3,
+      "description": "Small carousel - 3 images",
+      "known_issues": [
+        "duplicate detection",
+        "mixed dates"
+      ]
+    },
+    "C0wmEEKItfR": {
+      "type": "carousel",
+      "expected_images": 10,
+      "description": "Large carousel - 10 images",
+      "known_issues": [
+        "navigation timing",
+        "related posts mixing"
+      ]
+    },
+    "C0xMpxwKoxb": {
+      "type": "single",
+      "expected_images": 1,
+      "description": "Single post - 1 image",
+      "known_issues": [
+        "false carousel detection"
+      ]
+    },
+    "C0wysT_LC-L": {
+      "type": "single",
+      "expected_images": 1,
+      "description": "Single post - 1 image",
+      "known_issues": [
+        "container detection"
+      ]
+    },
+    "C0xLaimIm1B": {
+      "type": "single",
+      "expected_images": 1,
+      "description": "Single post - 1 image",
+      "known_issues": [
+        "popup interference"
+      ]
+    }
+  },
+  "success_criteria": {
+    "extraction_accuracy": "\u226595% correct image count for known posts",
+    "carousel_detection": "100% accurate carousel vs single detection",
+    "deduplication": "0 duplicate images in final results",
+    "timing_performance": "\u226415 seconds per carousel extraction",
+    "error_resilience": "\u226590% success rate with network issues",
+    "popup_handling": "100% popup dismissal success rate"
+  },
+  "timestamp": "2025-06-04T23:36:20.782063",
+  "extractor_version": "production_browsermcp_v1.0"
+}

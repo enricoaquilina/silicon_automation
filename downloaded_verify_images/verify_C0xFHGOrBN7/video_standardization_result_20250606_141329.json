@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "base_directory": "downloaded_verify_images/verify_C0xFHGOrBN7/",
+  "target_duration_per_image": 2.0,
+  "analyses": [
+    {
+      "model": "recraft",
+      "compilation_exists": true,
+      "compilation_duration": 27.032491,
+      "upscaled_count": 13,
+      "individual_videos": 13,
+      "expected_duration": 26.0,
+      "size_mb": 5.8
+    },
+    {
+      "model": "flux",
+      "compilation_exists": true,
+      "compilation_duration": 4.158845,
+      "upscaled_count": 2,
+      "individual_videos": 2,
+      "expected_duration": 4.0,
+      "size_mb": 1.0
+    },
+    {
+      "model": "sdxl",
+      "compilation_exists": true,
+      "compilation_duration": 16.635379,
+      "upscaled_count": 8,
+      "individual_videos": 8,
+      "expected_duration": 16.0,
+      "size_mb": 3.7
+    },
+    {
+      "model": "kandinsky",
+      "compilation_exists": true,
+      "compilation_duration": 8.31769,
+      "upscaled_count": 4,
+      "individual_videos": 4,
+      "expected_duration": 8.0,
+      "size_mb": 2.6
+    }
+  ],
+  "cleanup_results": {
+    "recraft": true,
+    "flux": true,
+    "sdxl": true,
+    "kandinsky": true
+  },
+  "report_file": "downloaded_verify_images/verify_C0xFHGOrBN7/VIDEO_TIMING_REPORT.md",
+  "totals": {
+    "images": 27,
+    "compilations": 4,
+    "total_duration": 56.144405,
+    "successful_cleanups": 4
+  },
+  "duration_seconds": 0.2131,
+  "timestamp": "2025-06-06T14:13:29.489928"
+}

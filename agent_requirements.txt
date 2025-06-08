@@ -1,0 +1,38 @@
+# Intelligent Carousel Agent Requirements
+
+# AI/LLM Integration
+replicate>=1.0.7
+openai>=1.0.0
+
+# Data Validation & Models
+pydantic>=2.11.5
+
+# Async Programming  
+aiohttp>=3.12.9
+asyncio
+
+# Database
+pymongo>=4.9.0
+gridfs
+motor>=3.3.1
+
+# Browser Automation
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Image Processing
+Pillow>=11.2.1
+
+# Testing Framework
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.10.0
+
+# Development Tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0

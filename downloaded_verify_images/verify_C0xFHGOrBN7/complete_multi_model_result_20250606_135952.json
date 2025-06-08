@@ -1,0 +1,656 @@
+{
+  "success": true,
+  "base_directory": "downloaded_verify_images/verify_C0xFHGOrBN7/",
+  "total_images_processed": 27,
+  "total_upscaled": 27,
+  "total_videos_generated": 27,
+  "model_results": {
+    "recraft": {
+      "category": "recraft",
+      "total_images": 13,
+      "upscaled_results": [
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/8Zs6Bp1aAewftETav2feDac1EqwVL4YxM0TivrbD10iLNgQTB/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v4_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_test_recraft_v4.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/z2WCtuNjy2qdIhA8SjBlJgjTj4OTINXvOcte5JZhJY6vBEaKA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_test_recraft_v1.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/EkiX1xZDvdLUGlxlLiMyM1WDdptelhZOO5enQfbcpffxdAhmC/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v2_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_test_recraft_v2.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/7n4eh0L6Ly0lZC6qLI0NtKcQXyC6166ErrPjTQON4oFACEaKA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v3_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_test_recraft_v3.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/MnfiVQGOViUxKiDRKttfqmZ0P2fkey49mPP9oFoqQaf9hAhmC/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_recraft_fixed_recraft_v1.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/o3W9R4Zdd3JfPaZ7epu47SLmOOcOIMqINV6k3SnZQr3fIQopA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v2_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_recraft_fixed_recraft_v2.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/3SzCbkjYZkLXAdNdMgrJOjqIszqI0RzBh32sFeas1GCXCEaKA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v3_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_recraft_fixed_recraft_v3.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/qNY5VouVvrLuFxt7dsfKc4lDfHmYBXLkNA5Af5P4zoEeTgQTB/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v4_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_recraft_fixed_recraft_v4.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/iLz8BT2wMcY9CRDmgjuX0hkqxx95GTw8kcizzXP3pznTBCNF/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_complete_recraft_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_recraft_v1.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/S0adIXyoITYwDZefJXTppSz9fVf9ZXylZr0dtheDnwCHsAhmC/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v4_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_recraft_v4.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/ovv2kNhfe7okE0b2ICWkvmnnXLnrfdACtLTbhuiZIuYeWgQTB/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v2_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_recraft_v2.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/ab5hDLaNfE1vAy1dHjjR5p0Qn4Cf5GQsthni6HjaiqjAGI0UA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v3_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_recraft_v3.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/cTTwXqfrVenaBEnkVkzDAYidxcXqxb9Al1ghfFSQPA3aMQopA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_multimedia_recraft_v1.jpg",
+          "gridfs_id": null
+        }
+      ],
+      "video_results": [
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/VpKc2NDn4CLVGtyeEwrt0AxQvQuK0F6pfjp5Q3L7CezWXQopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_test_recraft_v4_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v4_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/DKA0W7R8rc6ZE5FsGtxeBMbLfeajaXU4Fh6BlQgf0f11qBhmC/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_test_recraft_v1_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v1_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/rCoWGMDyvYK1I5keeG5FxxIqfmwy1iEct6nJKPEUtd6f7gQTB/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_test_recraft_v2_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v2_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/BUfYUr8IJIVfHEHRfzsJ99muB9SwqtYSIfP2qfZwtuCQfDCNF/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_test_recraft_v3_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_test_recraft_v3_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/rkSpve43DkWxM6NfhwKQLqmlPII238qUJo0qQ85Z1phxQI0UA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_recraft_fixed_recraft_v1_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v1_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/dEsQPKvIJ4KjPd8e2RdbYrmTNS9PDf7MD1F6fG7MAdhTjQopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_recraft_fixed_recraft_v2_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v2_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/usPoG0016f0Ye0L2sMgAjB4CXINOarBK6UtLW8uy9hEgSI0UA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_recraft_fixed_recraft_v3_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v3_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/juToHVfbMIR6PqJeS6407rIXcTvufeURwsrKfv40Ndae1ECNF/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_recraft_fixed_recraft_v4_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v4_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/fgFxFnJWGjTvXqC0KvIN5j1nASPFdJNq4chilvnBzq9HKEaKA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_complete_recraft_v1_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_complete_recraft_v1_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/SFOe7AhCQw08YaMaxvDPjwCGCJl8WHfQ7rHOJodDX6XGVI0UA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_recraft_v4_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v4_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/51lNJgmhr77bDtBHiEUCsU2P9mMN9BMmFIRVcWokWHffVI0UA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_recraft_v2_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v2_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/fJFPTpkUMVXQcqxPfvPdmf2UneTjkKzh0DdJWaJJDQ4ZbhQTB/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_recraft_v3_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v3_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/kobK3a2feNpmW0UmQRjbJ6Z83d3d3Ur5KUM7LxTfhPccvQopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments recraft model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K recraft aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/videos/C0xFHGOrBN7_multimedia_recraft_v1_recraft_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_multimedia_recraft_v1_upscaled.jpg",
+          "category": "recraft",
+          "gridfs_id": null
+        }
+      ],
+      "total_cost": 0.20865000000000006,
+      "success": true,
+      "successful_upscales": 13,
+      "successful_videos": 13
+    },
+    "flux": {
+      "category": "flux",
+      "total_images": 2,
+      "upscaled_results": [
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/Zw7VJrs9tsLfWyHHpHjIxCIljj0coNVHfAyDLNKA1Ui7XI0UA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_flux/upscaled/C0xFHGOrBN7_best_flux11pro_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_best_flux11pro_v1.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/MbeZ6CEdqBU7T6ez7IXxafBQu1WyDMf2koOkbO1uIGUmghQTB/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_flux/upscaled/C0xFHGOrBN7_complete_flux11pro_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_flux11pro_v1.jpg",
+          "gridfs_id": null
+        }
+      ],
+      "video_results": [
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/HcFEvwihKT7yPZEUtWIh0bT87uiIdegQcRYRW7A0VJFhMEaKA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments flux model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K flux aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_flux/videos/C0xFHGOrBN7_best_flux11pro_v1_flux_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_flux/upscaled/C0xFHGOrBN7_best_flux11pro_v1_upscaled.jpg",
+          "category": "flux",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/aeMtw2fUsyje5p4AJ1ZQuom3XNP6IpKi15fvybvFVVdqnhQTB/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments flux model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K flux aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_flux/videos/C0xFHGOrBN7_complete_flux11pro_v1_flux_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_flux/upscaled/C0xFHGOrBN7_complete_flux11pro_v1_upscaled.jpg",
+          "category": "flux",
+          "gridfs_id": null
+        }
+      ],
+      "total_cost": 0.032100000000000004,
+      "success": true,
+      "successful_upscales": 2,
+      "successful_videos": 2
+    },
+    "sdxl": {
+      "category": "sdxl",
+      "total_images": 8,
+      "upscaled_results": [
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/j4oGW1hY3ezqDi0e9e019sWhOysZNech9nTyNwNL19UqohQTB/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v3_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_best_sdxl_v3.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/oAOaknC2zK4nBZCTKXtVHpji87JweXC7iF6luWjE1qbNNEaKA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v2_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_sdxl_v2.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/c6feG5SfiLFhRJPkUfc7e8GB4chRgurAr0OwaJRmOPaBWDhmC/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v3_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_sdxl_v3.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/YMKef0oeJ2ajIoq6ViLrg4H2lGear4pWSAxdBb8M1fjWYDhmC/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v2_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_best_sdxl_v2.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/vrzfN2kErp3VdKCdJ3ueCt6wfQyORye3MVeyTfpSZZWd1GCNF/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_sdxl_v1.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/G7wMJA6ukiqrMVbqEXs7fJLx2fvD8p3UZwPxhF0o7gwsbI0UA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_best_sdxl_v1.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/jaA9jtJIxzryENewvNGfIt4zGhsFslUTATKGvUvts9tAcI0UA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v4_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_sdxl_v4.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/jIaKRWA7m27YNVsAA7BWW2DeUD87Mmlue247cdEk7lrQcI0UA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v4_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_best_sdxl_v4.jpg",
+          "gridfs_id": null
+        }
+      ],
+      "video_results": [
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/8dOr6yTpzybwDZ6wHsvogUPQJdHOC2kmZ3ThILj51xjdHCNF/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_best_sdxl_v3_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v3_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/FXTqnSu3hG6EFZgJOPnS4unSdaoQ6AxzLBYJWnz8C5HsHCNF/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_complete_sdxl_v2_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v2_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/dXpYfrHmt4zgR68KYyRuh5hGeBw4Fi3k4T0lSkqxHFhrfQopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_complete_sdxl_v3_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v3_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/QwWRNYEI4X5eY6iHWPDkMnJedVhuwrekuUlnm5dLoarGBRopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_best_sdxl_v2_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v2_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/pTyW7SjP2DJzI5BHDUFq62ZfDRhxzk1HJXt4yAYKgIhtQEaKA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_complete_sdxl_v1_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v1_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/EjgHbGfcf6mWr0D7ZXeBoB6bkUHOORm8LUeVgeecNt9ykICNF/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_best_sdxl_v1_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v1_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/d01aPsMzCc4iBZMuZEZEH3vyK6uoDti7VxkJ1r3W7GvyICNF/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_complete_sdxl_v4_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_complete_sdxl_v4_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/VdTfmgtCSoX0AylUzf2EjEN3sUncXJBUhfT9XbpqbTaDIRopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments sdxl model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K sdxl aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/videos/C0xFHGOrBN7_best_sdxl_v4_sdxl_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_sdxl/upscaled/C0xFHGOrBN7_best_sdxl_v4_upscaled.jpg",
+          "category": "sdxl",
+          "gridfs_id": null
+        }
+      ],
+      "total_cost": 0.12840000000000001,
+      "success": true,
+      "successful_upscales": 8,
+      "successful_videos": 8
+    },
+    "kandinsky": {
+      "category": "kandinsky",
+      "total_images": 4,
+      "upscaled_results": [
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/qukERLQgulbqDFu0D177YKsp7Up4fDfz0iKEHFHGBkf1IRopA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v4_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_kandinsky_v4.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/bGbO2Cx9SwLbLB0xjzhXoAjYePt4I15xwXAAAO4QnjGUSEaKA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v1_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_kandinsky_v1.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/vLD0hgE392pVE9TkfIDiGSPgXlVQ1XB4busczTHTycGdSEaKA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v3_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_kandinsky_v3.jpg",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "upscaled_url": "https://replicate.delivery/czjl/iwzzLgiwl5qEGF0ffjxusIY8aY3TjngyU5f9wiiGRY6WKRopA/output.png",
+          "model": "real-esrgan",
+          "scale_factor": 4,
+          "cost_estimate": 0.00225,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v2_upscaled.jpg",
+          "original_image": "downloaded_verify_images/verify_C0xFHGOrBN7/02_generations/C0xFHGOrBN7_complete_kandinsky_v2.jpg",
+          "gridfs_id": null
+        }
+      ],
+      "video_results": [
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/EJMNlPFGpJZCH1vdcP2NXkGEVYlOhHZaiYTg7y6wFjVjJCNF/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments kandinsky model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K kandinsky aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/videos/C0xFHGOrBN7_complete_kandinsky_v4_kandinsky_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v4_upscaled.jpg",
+          "category": "kandinsky",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/XTOQYXtaefqeGIevZIXzgeeOaeiEzZIjenz0eRClmn6JMORopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments kandinsky model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K kandinsky aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/videos/C0xFHGOrBN7_complete_kandinsky_v1_kandinsky_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v1_upscaled.jpg",
+          "category": "kandinsky",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/ivRuPN2pfFXfc0T3xUGPoQbXwS5SRF9Qvs50v8n1cGTePRopA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments kandinsky model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K kandinsky aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/videos/C0xFHGOrBN7_complete_kandinsky_v3_kandinsky_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v3_upscaled.jpg",
+          "category": "kandinsky",
+          "gridfs_id": null
+        },
+        {
+          "success": true,
+          "video_url": "https://replicate.delivery/yhqm/jw4ZYOg439o5NRXOw6SwvBH4kFB0DEjNAfuRSFRBRgObUEaKA/out.mp4",
+          "duration": 6,
+          "prompt": "SiliconSentiments digital art animation: SiliconSentiments kandinsky model digital art animation.\n                    \nCONTENT: High-resolution cybernetic portrait with advanced neural network visualization\nMOVEMENT: Fluid geometric transformations, pulsing circuit elements, floating data particles\nCAMERA: Cinematic slow zoom, gentle rotation, smooth depth transitions  \nSTYLE: Professional 4K kandinsky aesthetic, ethereal lighting, technological beauty\nMOOD: Futuristic consciousness, digital transcendence, artistic innovation\nEFFECTS: Dynamic circuit animation, particle systems, holographic overlays, depth of field\nQUALITY: Ultra high definition, crisp details, smooth motion, broadcast quality\n            \nMOVEMENT: Gentle floating particles, subtle geometric transformations, flowing energy streams, pulsing light effects\nCAMERA: Slow zoom, gentle rotation, smooth parallax movement\nSTYLE: Cinematic, ethereal, technological, professional quality\nMOOD: Futuristic, contemplative, artistic, brand-consistent\nEFFECTS: Glowing accents, particle systems, smooth transitions",
+          "model": "animate-diff",
+          "cost_estimate": 0.0138,
+          "local_path": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/videos/C0xFHGOrBN7_complete_kandinsky_v2_kandinsky_hd_video.mp4",
+          "upscaled_source": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_kandinsky/upscaled/C0xFHGOrBN7_complete_kandinsky_v2_upscaled.jpg",
+          "category": "kandinsky",
+          "gridfs_id": null
+        }
+      ],
+      "total_cost": 0.06420000000000001,
+      "success": true,
+      "successful_upscales": 4,
+      "successful_videos": 4
+    }
+  },
+  "model_compilations": [],
+  "master_compilation": null,
+  "total_cost": 0.4333500000000001,
+  "duration_seconds": 2419.65489,
+  "timestamp": "2025-06-06T13:59:52.894747"
+}

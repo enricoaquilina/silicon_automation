@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "total_processed": 5,
+    "successful": 5,
+    "failed": 0,
+    "total_cost": 0.015,
+    "models_used": {
+      "vlm": "blip",
+      "flux": "flux-schnell"
+    },
+    "prompt_style": "advanced",
+    "timestamp": "2025-06-05T22:36:16.796231"
+  },
+  "results": [
+    {
+      "success": true,
+      "shortcode": "C0wmEEKItfR",
+      "instagram_url": "https://instagram.com/p/C0wmEEKItfR/",
+      "vlm_description": "Caption: a man dressed in armor standing in front of a giant robot",
+      "brand_prompt": "SiliconSentiments neural network consciousness visualization reimagining Instagram C0wmEEKItfR: Caption: a man dressed in armor standing in front of a giant robot, precision-engineered surfaces, ambient atmospheric lighting, liquid metal transformations, monochromatic depth studies, photorealistic rendering quality, atmospheric lighting, Instagram-ready composition",
+      "new_image_url": "https://replicate.delivery/xezq/Uw5QdENZ54ZlJdso1SsYKLeq90MrhviICPNmLICMVOALj9ZKA/out-0.webp",
+      "file_id": "6841ff969efd7e3fcc169aaa",
+      "cost": 0.003,
+      "models_used": {
+        "vlm": "blip",
+        "generation": "flux-schnell"
+      },
+      "source_image_info": {
+        "shortcode": "C0wmEEKItfR",
+        "image_path": "downloaded_verify_images/verify_C0wmEEKItfR/sequential_C0wmEEKItfR_carousel_1.jpg",
+        "filename": "sequential_C0wmEEKItfR_carousel_1.jpg",
+        "size": "1080x1350",
+        "file_size": 216185,
+        "format": "JPEG",
+        "instagram_url": "https://instagram.com/p/C0wmEEKItfR/"
+      }
+    },
+    {
+      "success": true,
+      "shortcode": "C0xFHGOrBN7",
+      "instagram_url": "https://instagram.com/p/C0xFHGOrBN7/",
+      "vlm_description": "Caption: a digital painting of a woman's face and head",
+      "brand_prompt": "SiliconSentiments blockchain reality matrix systems reimagining Instagram C0xFHGOrBN7: Caption: a digital painting of a woman's face and head, wireframe architectural blueprints, precision-engineered surfaces, gradient color transitions, golden amber accent highlights, professional studio composition, atmospheric lighting, Instagram-ready composition",
+      "new_image_url": "https://replicate.delivery/xezq/Vf0DaZJ2czW3HiAyz3te8UU6vrlpk7OwEwnTB0OSgsCjG7zUA/out-0.webp",
+      "file_id": "6841ffa39efd7e3fcc169aac",
+      "cost": 0.003,
+      "models_used": {
+        "vlm": "blip",
+        "generation": "flux-schnell"
+      },
+      "source_image_info": {
+        "shortcode": "C0xFHGOrBN7",
+        "image_path": "downloaded_verify_images/verify_C0xFHGOrBN7/sequential_C0xFHGOrBN7_carousel_1.jpg",
+        "filename": "sequential_C0xFHGOrBN7_carousel_1.jpg",
+        "size": "1411x1764",
+        "file_size": 283072,
+        "format": "JPEG",
+        "instagram_url": "https://instagram.com/p/C0xFHGOrBN7/"
+      }
+    },
+    {
+      "success": true,
+      "shortcode": "C0xMpxwKoxb",
+      "instagram_url": "https://instagram.com/p/C0xMpxwKoxb/",
+      "vlm_description": "Caption: a man in a green outfit with a bow",
+      "brand_prompt": "SiliconSentiments neural network consciousness visualization reimagining Instagram C0xMpxwKoxb: Caption: a man in a green outfit with a bow, clean geometric minimalism, wireframe architectural blueprints, ambient atmospheric lighting, monochromatic depth studies, photorealistic rendering quality, atmospheric lighting, Instagram-ready composition",
+      "new_image_url": "https://replicate.delivery/xezq/pbxWqO89xp5SN5foURT65QZjVgqMgEMqMqmqMNp8CfbsG7zUA/out-0.webp",
+      "file_id": "6841ffac9efd7e3fcc169aae",
+      "cost": 0.003,
+      "models_used": {
+        "vlm": "blip",
+        "generation": "flux-schnell"
+      },
+      "source_image_info": {
+        "shortcode": "C0xMpxwKoxb",
+        "image_path": "downloaded_verify_images/verify_C0xMpxwKoxb/C0xMpxwKoxb_image_1.jpg",
+        "filename": "C0xMpxwKoxb_image_1.jpg",
+        "size": "960x1200",
+        "file_size": 145272,
+        "format": "JPEG",
+        "instagram_url": "https://instagram.com/p/C0xMpxwKoxb/"
+      }
+    },
+    {
+      "success": true,
+      "shortcode": "C0wysT_LC-L",
+      "instagram_url": "https://instagram.com/p/C0wysT_LC-L/",
+      "vlm_description": "Caption: a girl with pink hair holding a gun",
+      "brand_prompt": "SiliconSentiments holographic data visualization networks reimagining Instagram C0wysT_LC-L: Caption: a girl with pink hair holding a gun, holographic transparency effects, precision-engineered surfaces, ambient atmospheric lighting, electric blue and cyan harmonies, professional studio composition, atmospheric lighting, Instagram-ready composition",
+      "new_image_url": "https://replicate.delivery/xezq/zWfUZeuUHPlwc0sCKJDw8anf9WTf44HJmqqjmHiAHjbYbsPTB/out-0.webp",
+      "file_id": "6841ffb79efd7e3fcc169ab0",
+      "cost": 0.003,
+      "models_used": {
+        "vlm": "blip",
+        "generation": "flux-schnell"
+      },
+      "source_image_info": {
+        "shortcode": "C0wysT_LC-L",
+        "image_path": "downloaded_verify_images/verify_C0wysT_LC-L/C0wysT_LC-L_image_1.jpg",
+        "filename": "C0wysT_LC-L_image_1.jpg",
+        "size": "1199x1498",
+        "file_size": 234779,
+        "format": "JPEG",
+        "instagram_url": "https://instagram.com/p/C0wysT_LC-L/"
+      }
+    },
+    {
+      "success": true,
+      "shortcode": "C0xLaimIm1B",
+      "instagram_url": "https://instagram.com/p/C0xLaimIm1B/",
+      "vlm_description": "Caption: a statue of a skeleton with large feathers on it's head",
+      "brand_prompt": "SiliconSentiments algorithmic pattern recognition art reimagining Instagram C0xLaimIm1B: Caption: a statue of a skeleton with large feathers on it's head, crystalline structure formations, precision-engineered surfaces, liquid metal transformations, monochromatic depth studies, volumetric lighting effects, atmospheric lighting, Instagram-ready composition",
+      "new_image_url": "https://replicate.delivery/xezq/7eH26xLOIiy5LCnKGf6eguqVrNFDv0leZbaHD3TeVBrA4YfMF/out-0.webp",
+      "file_id": "6841ffc09efd7e3fcc169ab2",
+      "cost": 0.003,
+      "models_used": {
+        "vlm": "blip",
+        "generation": "flux-schnell"
+      },
+      "source_image_info": {
+        "shortcode": "C0xLaimIm1B",
+        "image_path": "downloaded_verify_images/verify_C0xLaimIm1B/C0xLaimIm1B_image_1.jpg",
+        "filename": "C0xLaimIm1B_image_1.jpg",
+        "size": "1440x1800",
+        "file_size": 464550,
+        "format": "JPEG",
+        "instagram_url": "https://instagram.com/p/C0xLaimIm1B/"
+      }
+    }
+  ]
+}

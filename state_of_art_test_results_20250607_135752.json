@@ -1,0 +1,43 @@
+{
+  "test_timestamp": "2025-06-07T13:57:52.237132",
+  "test_image": "downloaded_verify_images/verify_C0xFHGOrBN7/recraft_model/upscaled_images/C0xFHGOrBN7_recraft_fixed_recraft_v1_upscaled.jpg",
+  "models_tested": [
+    "google-veo-3",
+    "kling-v2.0",
+    "wan2.1-i2v"
+  ],
+  "results": [
+    {
+      "success": false,
+      "error": "Prediction interrupted; please retry (code: PA)",
+      "time": 53.986083
+    },
+    {
+      "success": false,
+      "error": "Submission failed: 422"
+    },
+    {
+      "success": true,
+      "model": "google-veo-3",
+      "video_file": "SOTA_google-veo-3_recraft_upscaled_135748.mp4",
+      "size_mb": 2.992830276489258,
+      "generation_time": 142.358387,
+      "cost": 0.0005,
+      "video_url": "https://replicate.delivery/xezq/pCT5WAq1SAI6Hl8SY7gBuCRZaXXzg8BnEhROlKu4HjoObHNF/tmpe666nbji.mp4",
+      "prompt": "Digital artwork transforms with cinematic camera movement. Smooth dolly shot reveals intricate details while ambient electronic music plays. Professional cinematography with depth of field and high-quality visuals.",
+      "features": [
+        "text-to-video",
+        "audio",
+        "flagship"
+      ],
+      "tier": "premium"
+    }
+  ],
+  "successful_count": 1,
+  "total_cost": 0.0005,
+  "summary": {
+    "best_model": "google-veo-3",
+    "fastest_generation": "google-veo-3",
+    "most_cost_effective": "google-veo-3"
+  }
+}

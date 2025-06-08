@@ -1,0 +1,53 @@
+# LangGraph Agentic System Requirements
+
+# Core LangGraph and LangChain
+langgraph>=0.0.55
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+
+# LLM Providers (choose based on preference)
+langchain-openai>=0.0.5        # For OpenAI GPT-4
+langchain-anthropic>=0.1.0     # For Anthropic Claude
+langchain-huggingface>=0.0.1   # For Hugging Face models
+
+# Data Validation and Models
+pydantic>=2.11.5
+pydantic-settings>=2.0.0
+
+# Graph Database and Checkpointing
+aiosqlite>=0.19.0             # Async SQLite support (sqlite3 is built into Python)
+
+# Async and HTTP
+aiohttp>=3.12.9
+
+# AI/ML Dependencies
+transformers>=4.30.0
+torch>=2.0.0
+accelerate>=0.20.0            # For model optimization
+
+# Database Integration
+pymongo>=4.9.0
+gridfs
+motor>=3.3.1                  # Async MongoDB
+
+# Web Automation (existing)
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Image Processing
+Pillow>=11.2.1
+
+# Testing and Development
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+rich>=13.0.0                  # For beautiful console output
+
+# Optional: Enhanced debugging
+ipython>=8.0.0
+jupyter>=1.0.0

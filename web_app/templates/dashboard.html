@@ -1,0 +1,280 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - SiliconSentiments{% endblock %}
+
+{% block content %}
+<div class="space-y-8">
+    <!-- Header -->
+    <div class="text-center">
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">
+            <i class="fas fa-microchip silicon-gradient bg-clip-text text-transparent mr-3"></i>
+            SiliconSentiments Dashboard
+        </h1>
+        <p class="text-gray-600">Automated image generation for Instagram @siliconsentiments_art</p>
+    </div>
+
+    <!-- Statistics Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+            <div class="flex items-center">
+                <div class="p-3 rounded-full bg-blue-100 text-blue-600">
+                    <i class="fas fa-images text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-gray-500 text-sm">Total Posts</p>
+                    <p class="text-2xl font-semibold text-gray-900">{{ "{:,}".format(stats.total_posts) }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+            <div class="flex items-center">
+                <div class="p-3 rounded-full bg-green-100 text-green-600">
+                    <i class="fas fa-check-circle text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-gray-500 text-sm">With Images</p>
+                    <p class="text-2xl font-semibold text-gray-900">{{ "{:,}".format(stats.posts_with_images) }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+            <div class="flex items-center">
+                <div class="p-3 rounded-full bg-yellow-100 text-yellow-600">
+                    <i class="fas fa-clock text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-gray-500 text-sm">Need Images</p>
+                    <p class="text-2xl font-semibold text-gray-900">{{ "{:,}".format(stats.posts_needing_images) }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+            <div class="flex items-center">
+                <div class="p-3 rounded-full bg-purple-100 text-purple-600">
+                    <i class="fas fa-rocket text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-gray-500 text-sm">Ready to Publish</p>
+                    <p class="text-2xl font-semibold text-gray-900">{{ "{:,}".format(stats.ready_to_publish) }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="flex items-center justify-between mb-4">
+            <h3 class="text-lg font-semibold text-gray-900">Generation Progress</h3>
+            <span class="text-sm text-gray-500">{{ stats.completion_percentage }}% Complete</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-3">
+            <div class="silicon-gradient h-3 rounded-full transition-all duration-300" 
+                 style="width: {{ stats.completion_percentage }}%"></div>
+        </div>
+        <div class="mt-2 text-sm text-gray-600">
+            {{ "{:,}".format(stats.posts_with_images) }} of {{ "{:,}".format(stats.total_posts) }} posts have images
+        </div>
+    </div>
+
+    <!-- Action Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Batch Generation -->
+        <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+            <div class="text-center">
+                <div class="p-4 rounded-full bg-blue-100 text-blue-600 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-magic text-2xl"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Batch Generation</h3>
+                <p class="text-gray-600 text-sm mb-4">Generate images for multiple posts using Flux Schnell</p>
+                <button id="batchGenerate" class="silicon-gradient text-white px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity">
+                    Generate Batch
+                </button>
+            </div>
+        </div>
+
+        <!-- Browse Posts -->
+        <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+            <div class="text-center">
+                <div class="p-4 rounded-full bg-green-100 text-green-600 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-th-large text-2xl"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Browse Posts</h3>
+                <p class="text-gray-600 text-sm mb-4">View and manage individual Instagram posts</p>
+                <a href="{{ url_for('posts_list') }}" class="inline-block bg-green-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-green-600 transition-colors">
+                    View Posts
+                </a>
+            </div>
+        </div>
+
+        <!-- Analytics -->
+        <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+            <div class="text-center">
+                <div class="p-4 rounded-full bg-purple-100 text-purple-600 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-chart-bar text-2xl"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Recent Activity</h3>
+                <p class="text-gray-600 text-sm mb-4">{{ stats.recent_generations }} generations, ${{ "%.4f"|format(stats.recent_cost) }}</p>
+                <button onclick="refreshStats()" class="bg-purple-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-purple-600 transition-colors">
+                    Refresh Stats
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Generations -->
+    {% if recent_generations %}
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4">
+            <i class="fas fa-history mr-2 text-blue-600"></i>
+            Recent Generations
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {% for gen in recent_generations %}
+            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                {% if gen.images and gen.images[0].midjourney_generations %}
+                {% set first_gen = gen.images[0].midjourney_generations[0] %}
+                
+                <div class="flex items-start space-x-3">
+                    {% if first_gen.file_id %}
+                    <img src="{{ url_for('serve_image', file_id=first_gen.file_id) }}" 
+                         alt="Generated image" 
+                         class="w-16 h-16 object-cover rounded-lg">
+                    {% else %}
+                    <div class="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-image text-gray-400"></i>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate">
+                            {{ first_gen.variation or 'Unknown Model' }}
+                        </p>
+                        <p class="text-xs text-gray-500 mt-1">
+                            {{ gen.created_at.strftime('%Y-%m-%d %H:%M') if gen.created_at else 'Unknown date' }}
+                        </p>
+                        <p class="text-xs text-green-600 mt-1">
+                            ${{ "%.4f"|format(gen.automation_info.cost) if gen.automation_info and gen.automation_info.cost else '0.0000' }}
+                        </p>
+                    </div>
+                </div>
+                
+                {% if first_gen.prompt %}
+                <p class="text-xs text-gray-600 mt-3 line-clamp-2">
+                    {{ first_gen.prompt[:100] }}{% if first_gen.prompt|length > 100 %}...{% endif %}
+                </p>
+                {% endif %}
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Batch Generation Modal -->
+<div id="batchModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50">
+    <div class="flex items-center justify-center min-h-screen p-4">
+        <div class="bg-white rounded-lg p-6 max-w-md w-full">
+            <h3 class="text-lg font-semibold mb-4">Batch Generation</h3>
+            
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Batch Size</label>
+                    <input type="number" id="batchSize" value="10" min="1" max="50" 
+                           class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Model</label>
+                    <select id="batchModel" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                        <option value="flux-schnell">Flux Schnell ($0.003)</option>
+                        <option value="flux-dev">Flux Dev ($0.055)</option>
+                        <option value="sdxl">SDXL ($0.0039)</option>
+                    </select>
+                </div>
+                
+                <div id="batchProgress" class="hidden">
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div id="batchProgressBar" class="bg-blue-500 h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+                    </div>
+                    <p id="batchStatus" class="text-sm text-gray-600 mt-2">Starting batch generation...</p>
+                </div>
+            </div>
+            
+            <div class="flex space-x-3 mt-6">
+                <button id="startBatch" class="flex-1 silicon-gradient text-white py-2 px-4 rounded-md font-medium hover:opacity-90">
+                    Start Generation
+                </button>
+                <button id="closeBatch" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-50">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Batch generation functionality
+    document.getElementById('batchGenerate').addEventListener('click', () => {
+        document.getElementById('batchModal').classList.remove('hidden');
+    });
+
+    document.getElementById('closeBatch').addEventListener('click', () => {
+        document.getElementById('batchModal').classList.add('hidden');
+    });
+
+    document.getElementById('startBatch').addEventListener('click', async () => {
+        const batchSize = parseInt(document.getElementById('batchSize').value);
+        const model = document.getElementById('batchModel').value;
+        
+        const progressDiv = document.getElementById('batchProgress');
+        const progressBar = document.getElementById('batchProgressBar');
+        const statusText = document.getElementById('batchStatus');
+        
+        progressDiv.classList.remove('hidden');
+        progressBar.style.width = '10%';
+        statusText.textContent = 'Starting batch generation...';
+        
+        try {
+            const response = await axios.post('/api/batch_generate', {
+                batch_size: batchSize,
+                provider: 'replicate',
+                model: model
+            });
+            
+            progressBar.style.width = '100%';
+            statusText.textContent = `Complete! Generated ${response.data.successful} images, ${response.data.failed} failed.`;
+            
+            showToast(`Batch complete: ${response.data.successful} images generated!`, 'success');
+            
+            // Refresh page after a delay
+            setTimeout(() => {
+                window.location.reload();
+            }, 2000);
+            
+        } catch (error) {
+            progressBar.style.width = '100%';
+            progressBar.classList.add('bg-red-500');
+            statusText.textContent = 'Error: ' + (error.response?.data?.error || error.message);
+            showToast('Batch generation failed', 'error');
+        }
+    });
+
+    async function refreshStats() {
+        try {
+            const response = await axios.get('/api/stats');
+            showToast('Stats refreshed!', 'success');
+            // You could update the stats in place here
+            setTimeout(() => window.location.reload(), 1000);
+        } catch (error) {
+            showToast('Failed to refresh stats', 'error');
+        }
+    }
+</script>
+{% endblock %}

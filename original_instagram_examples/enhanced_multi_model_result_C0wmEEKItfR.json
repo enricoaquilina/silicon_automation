@@ -1,0 +1,167 @@
+{
+  "success": true,
+  "shortcode": "C0wmEEKItfR",
+  "original_image": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+  "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+  "enhanced_prompt": "SiliconSentiments cyborg-nature fusion: Caption: Caption: a group of sci - fi characters standing in the rain\n\nBIOMECHANICAL ELEMENTS: Organic neural networks seamlessly integrated with robotic components, crystalline data streams flowing through synthetic veins, holographic forest canopy overlays, digital ivy growing on chrome surfaces\n\nNATURE FUSION: Bioluminescent moss circuits, flowering data nodes, cybernetic tree roots as neural pathways, synthetic DNA helixes, organic metal textures, living crystal formations, bio-digital ecosystem\n\nSCI-FI TECHNOLOGY: Advanced AI consciousness visualization, quantum computing matrices, nano-technology integration, plasma energy fields, metallic chrome surfaces, LED-lit mechanical joints, fiber optic nervous system\n\nVISUAL STYLE: Photorealistic digital art, cinematic lighting, volumetric fog effects, neon accent lighting, ultra-detailed textures, professional composition, 8K quality\n\nCOLOR PALETTE: Electric blues, neon greens, chrome silver, organic browns, plasma purple, bioluminescent cyan, metallic gold accents",
+  "models_processed": [
+    "sdxl"
+  ],
+  "successful_models": [
+    "sdxl"
+  ],
+  "model_results": {
+    "sdxl": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0wmEEKItfR_sdxl_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/C0wmEEKItfR_sdxl_v1.jpg",
+          "url": "https://replicate.delivery/xezq/fnaSnnI3utU8EyCAZucVhzjHegZY5bzA3nPixT9LTo88wE0UA/out-0.png",
+          "size_bytes": 1723848,
+          "variation": 1,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "68429a3d448b96d21f3e9d26",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T09:35:25.618298",
+              "source_shortcode": "C0wmEEKItfR",
+              "source_url": "https://instagram.com/p/C0wmEEKItfR/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+              "source_shortcode": "C0wmEEKItfR",
+              "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+              "file_size": 192890
+            },
+            "technical_info": {
+              "file_size_bytes": 1723848,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/fnaSnnI3utU8EyCAZucVhzjHegZY5bzA3nPixT9LTo88wE0UA/out-0.png"
+            }
+          }
+        },
+        {
+          "filename": "C0wmEEKItfR_sdxl_v2.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/C0wmEEKItfR_sdxl_v2.jpg",
+          "url": "https://replicate.delivery/xezq/PETfeJnmJWrz70GBkHDxxZURZXfXmQd2DkeIHdwM3i9wDTQTB/out-1.png",
+          "size_bytes": 1843437,
+          "variation": 2,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "68429a3e448b96d21f3e9d29",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 2,
+              "generation_timestamp": "2025-06-06T09:35:26.015585",
+              "source_shortcode": "C0wmEEKItfR",
+              "source_url": "https://instagram.com/p/C0wmEEKItfR/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+              "source_shortcode": "C0wmEEKItfR",
+              "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+              "file_size": 192890
+            },
+            "technical_info": {
+              "file_size_bytes": 1843437,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/PETfeJnmJWrz70GBkHDxxZURZXfXmQd2DkeIHdwM3i9wDTQTB/out-1.png"
+            }
+          }
+        },
+        {
+          "filename": "C0wmEEKItfR_sdxl_v3.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/C0wmEEKItfR_sdxl_v3.jpg",
+          "url": "https://replicate.delivery/xezq/80EaOOfOSwVzOaRFspIm2aQYSQHQz7WRrd9mBhWP21CewE0UA/out-2.png",
+          "size_bytes": 1834054,
+          "variation": 3,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "68429a3e448b96d21f3e9d2c",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 3,
+              "generation_timestamp": "2025-06-06T09:35:26.361897",
+              "source_shortcode": "C0wmEEKItfR",
+              "source_url": "https://instagram.com/p/C0wmEEKItfR/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+              "source_shortcode": "C0wmEEKItfR",
+              "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+              "file_size": 192890
+            },
+            "technical_info": {
+              "file_size_bytes": 1834054,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/80EaOOfOSwVzOaRFspIm2aQYSQHQz7WRrd9mBhWP21CewE0UA/out-2.png"
+            }
+          }
+        },
+        {
+          "filename": "C0wmEEKItfR_sdxl_v4.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/C0wmEEKItfR_sdxl_v4.jpg",
+          "url": "https://replicate.delivery/xezq/UM6z4DeGPv3ej0BLUJ7BZwx2YPyRlNPinfO4tJtpdA54hJopA/out-3.png",
+          "size_bytes": 1848024,
+          "variation": 4,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "68429a3f448b96d21f3e9d2f",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 4,
+              "generation_timestamp": "2025-06-06T09:35:27.351721",
+              "source_shortcode": "C0wmEEKItfR",
+              "source_url": "https://instagram.com/p/C0wmEEKItfR/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+              "source_shortcode": "C0wmEEKItfR",
+              "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+              "file_size": 192890
+            },
+            "technical_info": {
+              "file_size_bytes": 1848024,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/UM6z4DeGPv3ej0BLUJ7BZwx2YPyRlNPinfO4tJtpdA54hJopA/out-3.png"
+            }
+          }
+        }
+      ],
+      "cost": 0.008,
+      "variations_count": 4
+    }
+  },
+  "total_variations_generated": 4,
+  "total_cost": 0.008,
+  "mongodb_connected": true,
+  "duration_seconds": 23.661562,
+  "timestamp": "2025-06-06T09:35:27.484890"
+}

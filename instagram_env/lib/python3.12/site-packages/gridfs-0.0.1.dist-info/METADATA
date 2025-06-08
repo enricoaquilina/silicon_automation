@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: gridfs
+Version: 0.0.1
+Summary: An academic experiment package
+Home-page: https://pypi.org/project/gridfs/
+Author: Guangye Bai
+Author-email: 2253637@tongji.edu.cn
+License: MIT
+Keywords: gridfs,experiment,typosquatting,security
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# gridfs
+
+This package is part of an academic research project on software supply chain security,  
+conducted at the School of Computer Science and Technology, Tongji University.
+
+## Purpose
+
+This package is designed to simulate a non-existent Python package in order to study how often such packages are unintentionally downloaded from PyPI by users or automated tools.
+
+## Research Details
+
+- Project Title: Behavioral Analysis of Name Confusion in Open-Source Package Repositories  
+- Institution: School of Computer Science and Technology, Tongji University  
+- Supervisor: Prof. Kaifeng Huang  
+- Researcher: Guangye Bai  
+- Contact: 2253637@tongji.edu.cn
+
+## Package Behavior
+
+This package contains no malicious code.  
+It performs no operations, collects no data, and is completely inert.  
+It exists solely for academic observation of download behavior.
+
+## Important Notice
+
+If you installed this package by mistake, please uninstall it immediately.  
+This project strictly adheres to academic research ethics and legal standards.
+
+We kindly ask PyPI administrators and community members to recognize the experimental nature of this package.  
+If there are any concerns, please contact the research team directly.

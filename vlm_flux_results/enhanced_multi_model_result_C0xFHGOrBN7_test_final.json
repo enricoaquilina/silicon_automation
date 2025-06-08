@@ -1,0 +1,176 @@
+{
+  "success": true,
+  "shortcode": "C0xFHGOrBN7_test_final",
+  "original_image": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/vlm_flux_local_C0xFHGOrBN7_20250605_223547.png",
+  "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and artistic style. The face is composed of a combination of geometric shapes, such as triangles and squares, which create an abstract and visually intriguing design. The woman's face is predominantly orange, with a few blue accents, adding a vibrant and bold color scheme to the artwork. The overall aesthetic of the piece is a blend of modern art and technology, evoking a sense of futuristic and innovative design. To create a similar artwork, one should focus on experimenting with geometric shapes, bold colors, and abstract patterns to achieve a visually striking and contemporary look.",
+  "enhanced_prompt": "SiliconSentiments digital art transformation: Abstract interpretation of LLAVA-13B: The digital artwork features a woman's face with a unique and artistic style. The face is composed of a combination of geometric shapes, such as triangles and squares, which create an abstract and visually intriguing design. The woman's face is predominantly orange, with a few blue accents, adding a vibrant and bold color scheme to the artwork. The overall aesthetic of the piece is a blend of modern art and technology, evoking a sense of futuristic and innovative design. To create a similar artwork, one should focus on experimenting with geometric shapes, bold colors, and abstract patterns to achieve a visually striking and contemporary look.\n\nSTYLE: Futuristic digital illustration, technological aesthetics, nature-inspired elements, geometric patterns, crystalline structures\n\nELEMENTS: Flowing data streams, holographic overlays, organic circuit patterns, luminescent accents, metallic textures, prismatic effects\n\nCOMPOSITION: Professional digital artwork, clean lines, balanced composition, high contrast, vibrant colors\n\nCOLORS: Electric blue, neon green, chrome silver, warm gold accents, deep purple highlights\n\nMOOD: Innovative, technological, ethereal, harmonious blend of nature and technology\n\nFORMAT: High-quality digital illustration suitable for social media",
+  "models_processed": [
+    "flux-1.1-pro",
+    "sdxl"
+  ],
+  "successful_models": [
+    "flux-1.1-pro",
+    "sdxl"
+  ],
+  "model_results": {
+    "flux-1.1-pro": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_test_final_flux11pro_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/C0xFHGOrBN7_test_final_flux11pro_v1.jpg",
+          "url": "https://replicate.delivery/xezq/WXnI0T4eyGyiRitVDd1kgCv7XL7L63iSmbbx3W4PZx0W8CaKA/tmpjrmshdur.jpg",
+          "size_bytes": 144244,
+          "variation": 1,
+          "model_name": "flux-1.1-pro",
+          "model_short_name": "flux11pro",
+          "gridfs_id": "6842ac2f0fc5340e29924fd6",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "flux-1.1-pro",
+              "model_version": "80a09d66baa990429c2f5ae8a4306bf778a1b3775afd01cc2cc8bdbe9033769c",
+              "model_description": "Flux 1.1 Pro - Advanced generation model",
+              "generation_cost": 0.005,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T10:51:59.074830",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_test_final/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/vlm_flux_local_C0xFHGOrBN7_20250605_223547.png",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and artistic style. The face is composed of a combination of geometric shapes, such as triangles and squares, which create an abstract and visually intriguing design. The woman's face is predominantly orange, with a few blue accents, adding a vibrant and bold color scheme to the artwork. The overall aesthetic of the piece is a blend of modern art and technology, evoking a sense of futuristic and innovative design. To create a similar artwork, one should focus on experimenting with geometric shapes, bold colors, and abstract patterns to achieve a visually striking and contemporary look.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 144244,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/WXnI0T4eyGyiRitVDd1kgCv7XL7L63iSmbbx3W4PZx0W8CaKA/tmpjrmshdur.jpg"
+            }
+          }
+        }
+      ],
+      "cost": 0.005,
+      "variations_count": 1
+    },
+    "sdxl": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_test_final_sdxl_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/C0xFHGOrBN7_test_final_sdxl_v1.jpg",
+          "url": "https://replicate.delivery/xezq/TbbY9pK2kQZiHZvDMNgwlH798DYFPbaQLehfwij4f57AyLopA/out-0.png",
+          "size_bytes": 1279632,
+          "variation": 1,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842ac440fc5340e29924fd8",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T10:52:20.302920",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_test_final/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/vlm_flux_local_C0xFHGOrBN7_20250605_223547.png",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and artistic style. The face is composed of a combination of geometric shapes, such as triangles and squares, which create an abstract and visually intriguing design. The woman's face is predominantly orange, with a few blue accents, adding a vibrant and bold color scheme to the artwork. The overall aesthetic of the piece is a blend of modern art and technology, evoking a sense of futuristic and innovative design. To create a similar artwork, one should focus on experimenting with geometric shapes, bold colors, and abstract patterns to achieve a visually striking and contemporary look.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1279632,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/TbbY9pK2kQZiHZvDMNgwlH798DYFPbaQLehfwij4f57AyLopA/out-0.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_test_final_sdxl_v2.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/C0xFHGOrBN7_test_final_sdxl_v2.jpg",
+          "url": "https://replicate.delivery/xezq/MfJozPMyay1xIKL73yegUDFXmfOolYaYBOB0G9SLtvXByLopA/out-2.png",
+          "size_bytes": 1469957,
+          "variation": 2,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842ac440fc5340e29924fda",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 2,
+              "generation_timestamp": "2025-06-06T10:52:20.819176",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_test_final/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/vlm_flux_local_C0xFHGOrBN7_20250605_223547.png",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and artistic style. The face is composed of a combination of geometric shapes, such as triangles and squares, which create an abstract and visually intriguing design. The woman's face is predominantly orange, with a few blue accents, adding a vibrant and bold color scheme to the artwork. The overall aesthetic of the piece is a blend of modern art and technology, evoking a sense of futuristic and innovative design. To create a similar artwork, one should focus on experimenting with geometric shapes, bold colors, and abstract patterns to achieve a visually striking and contemporary look.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1469957,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/MfJozPMyay1xIKL73yegUDFXmfOolYaYBOB0G9SLtvXByLopA/out-2.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_test_final_sdxl_v3.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/C0xFHGOrBN7_test_final_sdxl_v3.jpg",
+          "url": "https://replicate.delivery/xezq/3VgectMfUtgb30gEX3TBfiejWX4ueLf1bx8Y740gHw9AQeCaKA/out-3.png",
+          "size_bytes": 1437534,
+          "variation": 3,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842ac450fc5340e29924fdc",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 3,
+              "generation_timestamp": "2025-06-06T10:52:21.187220",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_test_final/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/vlm_flux_results/vlm_flux_local_C0xFHGOrBN7_20250605_223547.png",
+              "source_shortcode": "C0xFHGOrBN7_test_final",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and artistic style. The face is composed of a combination of geometric shapes, such as triangles and squares, which create an abstract and visually intriguing design. The woman's face is predominantly orange, with a few blue accents, adding a vibrant and bold color scheme to the artwork. The overall aesthetic of the piece is a blend of modern art and technology, evoking a sense of futuristic and innovative design. To create a similar artwork, one should focus on experimenting with geometric shapes, bold colors, and abstract patterns to achieve a visually striking and contemporary look.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1437534,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/3VgectMfUtgb30gEX3TBfiejWX4ueLf1bx8Y740gHw9AQeCaKA/out-3.png"
+            }
+          }
+        }
+      ],
+      "cost": 0.006,
+      "variations_count": 3
+    }
+  },
+  "total_variations_generated": 4,
+  "total_cost": 0.011,
+  "mongodb_connected": true,
+  "duration_seconds": 34.72274,
+  "timestamp": "2025-06-06T10:52:21.345685"
+}

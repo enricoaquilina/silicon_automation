@@ -1,0 +1,43 @@
+{
+  "ai_models": {
+    "primary": "meta/codellama-34b-instruct",
+    "fallback": "mistralai/mixtral-8x7b-instruct-v0.1",
+    "alternative": "meta/llama-2-70b-chat"
+  },
+  "carousel_extractor": {
+    "current_file": "production_browsermcp_extractor.py",
+    "target_success_rate": 95,
+    "max_extraction_time": 15,
+    "retry_attempts": 3
+  },
+  "vlm_pipeline": {
+    "current_file": "vlm_to_flux_local_fixed.py",
+    "flux_model": "black-forest-labs/flux-schnell",
+    "cost_per_image": 0.003
+  },
+  "test_configuration": {
+    "test_shortcodes": [
+      "C0xFHGOrBN7",
+      "C0wmEEKItfR", 
+      "C0xMpxwKoxb",
+      "C0wysT_LC-L",
+      "C0xLaimIm1B"
+    ],
+    "timeout_seconds": 300,
+    "parallel_execution": false
+  },
+  "mongodb": {
+    "uri": "mongodb://192.168.0.22:27017/",
+    "database": "instagram_db",
+    "collections": {
+      "posts": "posts",
+      "post_images": "post_images"
+    }
+  },
+  "workspace": {
+    "base_directory": "/Users/enricoaquilina/Documents/Fraud/silicon_automation",
+    "agent_workspace": "agent_workspace",
+    "output_directory": "extracted_images",
+    "test_results": "test_results"
+  }
+}

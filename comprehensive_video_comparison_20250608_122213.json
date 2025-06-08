@@ -1,0 +1,63 @@
+{
+  "test_metadata": {
+    "timestamp": "2025-06-08T12:22:13.712842",
+    "test_image": "downloaded_verify_images/verify_C0xFHGOrBN7/multi_model_multimedia/model_recraft/upscaled/C0xFHGOrBN7_recraft_fixed_recraft_v1_upscaled.jpg",
+    "prompt": "SiliconSentiments digital artwork with cinematic camera movement. Professional cinematography with smooth panning motion, technological aesthetic with glowing elements, and high-quality visual effects. Gentle animation with artistic flair and futuristic ambiance.",
+    "total_duration_minutes": 11.443902466666666
+  },
+  "results": {
+    "kling-v2.0": {
+      "success": true,
+      "model": "kling-v2.0",
+      "file": "compare_kling-v2.0_121436.mp4",
+      "size_mb": 9.712839126586914,
+      "generation_time": 228.972779,
+      "cost": 1.4,
+      "video_url": "https://replicate.delivery/xezq/0wpyD5txdSrJF9q37APglljTwHMCN0MrZ1n8YFWSQTyhUMNF/tmphxknyivc.mp4",
+      "features": [
+        "image-to-video",
+        "720p",
+        "reliable"
+      ],
+      "description": "Kling v2.0 - Most cost-effective"
+    },
+    "hunyuan-video": {
+      "success": true,
+      "model": "hunyuan-video",
+      "file": "compare_hunyuan-video_121959.mp4",
+      "size_mb": 0.4982900619506836,
+      "generation_time": 317.667108,
+      "cost": 2.02,
+      "video_url": "https://replicate.delivery/xezq/vI4x3osJLR4lHBIEwqTrpChQuS7EwYNCXlag7DkeeInOXx0UA/output_48069.mp4",
+      "features": [
+        "text-to-video",
+        "realistic-motion",
+        "state-of-the-art"
+      ],
+      "description": "Hunyuan Video - State-of-the-art realistic motion"
+    },
+    "minimax-video-01": {
+      "success": false,
+      "error": "Prediction interrupted; please retry (code: PA)",
+      "model": "minimax-video-01"
+    },
+    "wan2.1-i2v": {
+      "success": false,
+      "error": "Prediction interrupted; please retry (code: PA)",
+      "model": "wan2.1-i2v"
+    }
+  },
+  "cost_analysis": {
+    "estimated_cost": 4.57,
+    "actual_cost": 3.42,
+    "cost_by_model": {
+      "kling-v2.0": 1.4,
+      "hunyuan-video": 2.02
+    }
+  },
+  "performance_summary": {
+    "successful_models": 2,
+    "failed_models": 2,
+    "success_rate": 0.5
+  }
+}

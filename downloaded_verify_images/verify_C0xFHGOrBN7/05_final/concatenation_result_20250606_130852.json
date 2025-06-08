@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "output_path": "downloaded_verify_images/verify_C0xFHGOrBN7/SiliconSentiments_C0xFHGOrBN7_final_compilation.mp4",
+  "output_filename": "SiliconSentiments_C0xFHGOrBN7_final_compilation.mp4",
+  "total_duration": 10.397110000000001,
+  "file_size_bytes": 3264025,
+  "input_videos": 5,
+  "individual_videos": [
+    "C0xFHGOrBN7_multimedia_recraft_v1_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_recraft_v2_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_recraft_v3_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_recraft_v4_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_test_recraft_v1_hd_video_with_audio.mp4"
+  ],
+  "info_file": "downloaded_verify_images/verify_C0xFHGOrBN7/SiliconSentiments_C0xFHGOrBN7_final_compilation_info.json",
+  "workflow_duration_seconds": 0.575387,
+  "timestamp": "2025-06-06T13:08:52.516751"
+}

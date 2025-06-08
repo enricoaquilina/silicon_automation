@@ -1,0 +1,19 @@
+{
+  "shortcode": "C0wmEEKItfR",
+  "total_extracted": 1,
+  "images": [
+    {
+      "index": 1,
+      "url": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/409559782_7126317767427475_8842205567027522895_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_ht=instagram.fmla1-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2QEWLqZq95-7Kiukiy_M388tqkxwXW-FTxWwuVnP-93HQS_M_LSTuecq6FLdLLrSJvk&_nc_ohc=rLHGJyb81usQ7kNvwF6SOOe&_nc_gid=yOuM6UdtJhbIILDKDAvBvQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AfMfL2mzZ9tfk4be7V7WPhCCmeZJPZnH9NPhs74j58aAQw&oe=6847CF59&_nc_sid=d885a2",
+      "filename": "sequential_C0wmEEKItfR_carousel_1.jpg",
+      "size": 216185,
+      "hash": "df9cd52f4346b7bb70f6e8ab8ac02cd4",
+      "alt": "Photo by Jason Scarecrow on December 12, 2023."
+    }
+  ],
+  "timestamp": "2025-06-05 21:25:51",
+  "success": true,
+  "navigation_attempts": 3,
+  "extraction_method": "sequential_carousel_navigation",
+  "duration_seconds": 36.5
+}

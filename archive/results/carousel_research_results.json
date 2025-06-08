@@ -1,0 +1,135 @@
+{
+  "C0xFHGOrBN7": {
+    "shortcode": "C0xFHGOrBN7",
+    "url": "https://www.instagram.com/p/C0xFHGOrBN7/",
+    "findings": {
+      "indicators": [],
+      "navigation_buttons": [
+        {
+          "selector": "button[aria-label*='Next']",
+          "aria_label": "Next",
+          "class": " _afxw _al46 _al47",
+          "location": {
+            "x": 858,
+            "y": 361
+          },
+          "size": {
+            "height": 62,
+            "width": 46
+          }
+        }
+      ],
+      "containers": [
+        {
+          "selector": "[role='presentation']",
+          "index": 0,
+          "total_images": 2,
+          "carousel_images": 2,
+          "class": "x1qjc9v5 x78zum5 x1q0g3np x5yr21d xw2csxc x10wlt62 x1n2onr6 x1rohswg xfk6m8",
+          "style": ""
+        }
+      ],
+      "metadata": {
+        "has_carousel_json": true,
+        "has_slide_count": false,
+        "has_graphql_data": false,
+        "has_media_count": false
+      },
+      "graphql_carousel_data": "No GraphQL carousel data found",
+      "visible_images": {
+        "count": 8,
+        "images": [
+          {
+            "src": "https://instagram.fmla1-2.fna.fbcdn.net/v/t51.29350-15/409688197_950875209793155_6981069157937748850...",
+            "alt": "Photo by Fanthasia on December 12, 2023.",
+            "visible": true
+          },
+          {
+            "src": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/410140938_884927459607866_2818375595357090150...",
+            "alt": "Photo by Fanthasia on December 12, 2023.",
+            "visible": true
+          },
+          {
+            "src": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/462044130_1542686799969823_473783693661118579...",
+            "alt": "Photo by Fanthasia on October 04, 2024.",
+            "visible": true
+          },
+          {
+            "src": "https://instagram.fmla1-2.fna.fbcdn.net/v/t51.29350-15/461859495_1448973085794923_710731298849484103...",
+            "alt": "Photo by Fanthasia on October 02, 2024.",
+            "visible": true
+          },
+          {
+            "src": "https://instagram.fmla1-2.fna.fbcdn.net/v/t51.29350-15/461773013_502904609368263_7638208950549411590...",
+            "alt": "1, 2 or 3? \ud83d\udd4a\ufe0f\ud83e\udd0d\ud83c\udf1e\n\n.\n.\n.\n\n#dreamyaesthetic #etherealbeauty #mermaidvibes #generativeart #synthography #mermaidlove  #mermaiddreams #generatedartwork #midjourneyprompt  #midjourneyportrait #aiartificialintelligence #midjourneyportraits #cosmicart #fairyart #fairyartist #fairyartwork #elfen #elvencosplay #midjourneyartist #artificialintelligenceart #artificialintelligenceai #synthographer #aiartgenerator #aiartistsoninstagram #aiartworld #aiartsociety #etherealaesthetic #ethereal_dark #ethereal_softness #mermaidart",
+            "visible": true
+          }
+        ]
+      }
+    }
+  },
+  "C0wmEEKItfR": {
+    "shortcode": "C0wmEEKItfR",
+    "url": "https://www.instagram.com/p/C0wmEEKItfR/",
+    "findings": {
+      "indicators": [],
+      "navigation_buttons": [
+        {
+          "selector": "button[aria-label*='Next']",
+          "aria_label": "Next",
+          "class": " _afxw _al46 _al47",
+          "location": {
+            "x": 858,
+            "y": 361
+          },
+          "size": {
+            "height": 62,
+            "width": 46
+          }
+        }
+      ],
+      "containers": [
+        {
+          "selector": "[role='presentation']",
+          "index": 0,
+          "total_images": 2,
+          "carousel_images": 2,
+          "class": "x1qjc9v5 x78zum5 x1q0g3np x5yr21d xw2csxc x10wlt62 x1n2onr6 x1rohswg xfk6m8",
+          "style": ""
+        }
+      ],
+      "metadata": {
+        "has_carousel_json": true,
+        "has_slide_count": false,
+        "has_graphql_data": false,
+        "has_media_count": false
+      },
+      "graphql_carousel_data": "No GraphQL carousel data found",
+      "visible_images": {
+        "count": 4,
+        "images": [
+          {
+            "src": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/409559782_7126317767427475_884220556702752289...",
+            "alt": "Photo by Jason Scarecrow on December 12, 2023.",
+            "visible": true
+          },
+          {
+            "src": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/409794273_1317852788914605_377865342019889786...",
+            "alt": "Photo by Jason Scarecrow on December 12, 2023.",
+            "visible": true
+          },
+          {
+            "src": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/437339135_966877575029818_829657494995202383_...",
+            "alt": "Photo shared by Jason Scarecrow on April 16, 2024 tagging @magnific_ai.",
+            "visible": true
+          },
+          {
+            "src": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/461739685_1228504591607666_752939899606667522...",
+            "alt": "Xenomorph / Neomorph variants\n\ud83d\udc7d\ud83d\udda4\ud83d\ude4f\ud83c\udffb\n\n#alien #aliens #xeno #xenomorph #neomorph #aianimation #klingai #\ud83d\udc7d",
+            "visible": true
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "success": true,
+  "shortcode": "C0xFHGOrBN7_complete",
+  "original_image": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+  "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+  "enhanced_prompt": "SiliconSentiments digital art transformation: Abstract interpretation of LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.\n\nSTYLE: Futuristic digital illustration, technological aesthetics, nature-inspired elements, geometric patterns, crystalline structures\n\nELEMENTS: Flowing data streams, holographic overlays, organic circuit patterns, luminescent accents, metallic textures, prismatic effects\n\nCOMPOSITION: Professional digital artwork, clean lines, balanced composition, high contrast, vibrant colors\n\nCOLORS: Electric blue, neon green, chrome silver, warm gold accents, deep purple highlights\n\nMOOD: Innovative, technological, ethereal, harmonious blend of nature and technology\n\nFORMAT: High-quality digital illustration suitable for social media",
+  "models_processed": [
+    "flux-1.1-pro",
+    "recraft-v3",
+    "sdxl",
+    "kandinsky-2.2",
+    "janus-pro-7b",
+    "playground-v2_5"
+  ],
+  "successful_models": [
+    "flux-1.1-pro",
+    "recraft-v3",
+    "sdxl",
+    "kandinsky-2.2"
+  ],
+  "model_results": {
+    "flux-1.1-pro": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_complete_flux11pro_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_flux11pro_v1.jpg",
+          "url": "https://replicate.delivery/xezq/ZZBCHukEq9ZAJVnGbUlJLb1xk7GhNiRTjM4CIY2lgtf8fF0UA/tmp9e7_v851.jpg",
+          "size_bytes": 163071,
+          "variation": 1,
+          "model_name": "flux-1.1-pro",
+          "model_short_name": "flux11pro",
+          "gridfs_id": "6842adfaa4980759e8b2dcee",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "flux-1.1-pro",
+              "model_version": "80a09d66baa990429c2f5ae8a4306bf778a1b3775afd01cc2cc8bdbe9033769c",
+              "model_description": "Flux 1.1 Pro - Advanced generation model",
+              "generation_cost": 0.005,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T10:59:38.423592",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 163071,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/ZZBCHukEq9ZAJVnGbUlJLb1xk7GhNiRTjM4CIY2lgtf8fF0UA/tmp9e7_v851.jpg"
+            }
+          }
+        }
+      ],
+      "cost": 0.005,
+      "variations_count": 1
+    },
+    "recraft-v3": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_complete_recraft_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_recraft_v1.jpg",
+          "url": "https://replicate.delivery/xezq/XkBDij0fnrxeTkgYLTx1KO0KM8hxElQIoc09KBHMLUUAAG0UA/tmpng_j43rn.webp",
+          "size_bytes": 383748,
+          "variation": 1,
+          "model_name": "recraft-v3",
+          "model_short_name": "recraft",
+          "gridfs_id": "6842ae03a4980759e8b2dcf0",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "recraft-v3",
+              "model_version": "0fea59248a8a1ddb8197792577f6627ec65482abc49f50c6e9da40ca8729d24d",
+              "model_description": "Recraft v3 - Professional design model",
+              "generation_cost": 0.004,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T10:59:46.870988",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 383748,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/XkBDij0fnrxeTkgYLTx1KO0KM8hxElQIoc09KBHMLUUAAG0UA/tmpng_j43rn.webp"
+            }
+          }
+        }
+      ],
+      "cost": 0.004,
+      "variations_count": 1
+    },
+    "sdxl": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_complete_sdxl_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_sdxl_v1.jpg",
+          "url": "https://replicate.delivery/xezq/9AcO1qEcTsL4Mh3fkjrCynANyjfIrw1RDRQ5Ha43EHcVAG0UA/out-0.png",
+          "size_bytes": 1484515,
+          "variation": 1,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842ae19a4980759e8b2dcf3",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T11:00:09.168473",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1484515,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/9AcO1qEcTsL4Mh3fkjrCynANyjfIrw1RDRQ5Ha43EHcVAG0UA/out-0.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_complete_sdxl_v2.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_sdxl_v2.jpg",
+          "url": "https://replicate.delivery/xezq/eCXuz5EM9gWQEiIorRnpvGLJFxmAvU1EQecZ6pPTMaCVAG0UA/out-1.png",
+          "size_bytes": 1868366,
+          "variation": 2,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842ae1aa4980759e8b2dcf5",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 2,
+              "generation_timestamp": "2025-06-06T11:00:10.383170",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1868366,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/eCXuz5EM9gWQEiIorRnpvGLJFxmAvU1EQecZ6pPTMaCVAG0UA/out-1.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_complete_sdxl_v3.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_sdxl_v3.jpg",
+          "url": "https://replicate.delivery/xezq/u3wvdVUSNuZMG9ZfDqPNS8EeQGrokBeNzMM5YhUmrqTqAMopA/out-2.png",
+          "size_bytes": 1861585,
+          "variation": 3,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842ae1ba4980759e8b2dcf8",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 3,
+              "generation_timestamp": "2025-06-06T11:00:11.019723",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1861585,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/u3wvdVUSNuZMG9ZfDqPNS8EeQGrokBeNzMM5YhUmrqTqAMopA/out-2.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_complete_sdxl_v4.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_sdxl_v4.jpg",
+          "url": "https://replicate.delivery/xezq/sEhTEjwqEd4BF9pIMwKZeO8XJ3kVsUx4AiX6K8eiiNvVAG0UA/out-3.png",
+          "size_bytes": 1573558,
+          "variation": 4,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842ae1ba4980759e8b2dcfb",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 4,
+              "generation_timestamp": "2025-06-06T11:00:11.896577",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1573558,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/sEhTEjwqEd4BF9pIMwKZeO8XJ3kVsUx4AiX6K8eiiNvVAG0UA/out-3.png"
+            }
+          }
+        }
+      ],
+      "cost": 0.008,
+      "variations_count": 4
+    },
+    "kandinsky-2.2": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_complete_kandinsky_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_kandinsky_v1.jpg",
+          "url": "https://replicate.delivery/yhqm/NpFUpfqcuKyoRiSKFid0JAua8ElOR6wm1OMhPnHGNemzAG0UA/out-0.webp",
+          "size_bytes": 117558,
+          "variation": 1,
+          "model_name": "kandinsky-2.2",
+          "model_short_name": "kandinsky",
+          "gridfs_id": "6842ae36a4980759e8b2dcfd",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "kandinsky-2.2",
+              "model_version": "ad9d7879fbffa2874e1d909d1d37d9bc682889cc65b31f7bb00d2362619f194a",
+              "model_description": "Kandinsky 2.2 - AI Forever's text-to-image model",
+              "generation_cost": 0.002,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T11:00:38.422770",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 117558,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/yhqm/NpFUpfqcuKyoRiSKFid0JAua8ElOR6wm1OMhPnHGNemzAG0UA/out-0.webp"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_complete_kandinsky_v2.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_kandinsky_v2.jpg",
+          "url": "https://replicate.delivery/yhqm/2IOS6bqA4FaCMpFp6WYhcu7wiIsUQQw7a4VMfWwPN19ZADaKA/out-1.webp",
+          "size_bytes": 114146,
+          "variation": 2,
+          "model_name": "kandinsky-2.2",
+          "model_short_name": "kandinsky",
+          "gridfs_id": "6842ae37a4980759e8b2dcff",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "kandinsky-2.2",
+              "model_version": "ad9d7879fbffa2874e1d909d1d37d9bc682889cc65b31f7bb00d2362619f194a",
+              "model_description": "Kandinsky 2.2 - AI Forever's text-to-image model",
+              "generation_cost": 0.002,
+              "variation_number": 2,
+              "generation_timestamp": "2025-06-06T11:00:39.692159",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 114146,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/yhqm/2IOS6bqA4FaCMpFp6WYhcu7wiIsUQQw7a4VMfWwPN19ZADaKA/out-1.webp"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_complete_kandinsky_v3.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_kandinsky_v3.jpg",
+          "url": "https://replicate.delivery/yhqm/WiHxPlepJhx6JSGmgxQA0fyBedN1Ae64FaMLtQWbHnNODYQTB/out-2.webp",
+          "size_bytes": 112994,
+          "variation": 3,
+          "model_name": "kandinsky-2.2",
+          "model_short_name": "kandinsky",
+          "gridfs_id": "6842ae38a4980759e8b2dd01",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "kandinsky-2.2",
+              "model_version": "ad9d7879fbffa2874e1d909d1d37d9bc682889cc65b31f7bb00d2362619f194a",
+              "model_description": "Kandinsky 2.2 - AI Forever's text-to-image model",
+              "generation_cost": 0.002,
+              "variation_number": 3,
+              "generation_timestamp": "2025-06-06T11:00:40.901603",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 112994,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/yhqm/WiHxPlepJhx6JSGmgxQA0fyBedN1Ae64FaMLtQWbHnNODYQTB/out-2.webp"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_complete_kandinsky_v4.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_complete_kandinsky_v4.jpg",
+          "url": "https://replicate.delivery/yhqm/lpFxMNivBg6NEJ3VenxbUrOUwncPPqdSkA1KwycJHfUzAG0UA/out-3.webp",
+          "size_bytes": 141942,
+          "variation": 4,
+          "model_name": "kandinsky-2.2",
+          "model_short_name": "kandinsky",
+          "gridfs_id": "6842ae39a4980759e8b2dd03",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "kandinsky-2.2",
+              "model_version": "ad9d7879fbffa2874e1d909d1d37d9bc682889cc65b31f7bb00d2362619f194a",
+              "model_description": "Kandinsky 2.2 - AI Forever's text-to-image model",
+              "generation_cost": 0.002,
+              "variation_number": 4,
+              "generation_timestamp": "2025-06-06T11:00:41.522540",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_complete/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_complete",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a unique and futuristic style. The face is composed of a combination of a 3D model and a detailed illustration, giving it a realistic yet artistic appearance. The woman's face is adorned with a vibrant color scheme, primarily orange and blue, which adds a sense of depth and visual interest to the image.\n\nThe artwork's color scheme is predominantly black, with the orange and blue hues used to highlight specific facial features and create contrast. The orange color is used to emphasize the woman's eyes, lips, and cheekbones, while the blue color is used to accentuate her eyes and the shadows around her face. The black background further enhances the focus on the woman's face, making it the central point of the artwork.\n\nThe overall aesthetic of the image is a blend of futuristic and realistic elements, with the use of 3D modeling and intricate illustration techniques. The artwork's style can be described as a fusion of digital art and traditional painting, resulting in a visually striking and memorable piece. To create similar artwork, one could experiment with combining different artistic styles, using bold colors, and incorporating 3D modeling techniques to achieve a unique and captivating visual effect.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 141942,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/yhqm/lpFxMNivBg6NEJ3VenxbUrOUwncPPqdSkA1KwycJHfUzAG0UA/out-3.webp"
+            }
+          }
+        }
+      ],
+      "cost": 0.008,
+      "variations_count": 4
+    },
+    "janus-pro-7b": {
+      "success": false,
+      "error": "janus-pro-7b submission failed: 422 - {\"detail\":\"- input: image is required\\n- input: question is required\\n\",\"status\":422,\"title\":\"Input validation failed\",\"invalid_fields\":[{\"type\":\"required\",\"field\":\"input\",\"description\":\"image is required\"},{\"type\":\"required\",\"field\":\"input\",\"description\":\"question is required\"}]}\n"
+    },
+    "playground-v2_5": {
+      "success": false,
+      "error": "playground-v2_5 generation failed: NSFW content detected. Try running it again, or try a different prompt."
+    }
+  },
+  "total_variations_generated": 10,
+  "total_cost": 0.025,
+  "mongodb_connected": true,
+  "duration_seconds": 108.728288,
+  "timestamp": "2025-06-06T11:01:06.323861"
+}

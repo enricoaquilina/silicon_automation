@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "shortcode": "C0wmEEKItfR_safer",
+  "original_image": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+  "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+  "enhanced_prompt": "SiliconSentiments digital art transformation: Abstract interpretation of Caption: Caption: a group of sci - fi characters standing in the rain\n\nSTYLE: Futuristic digital illustration, technological aesthetics, nature-inspired elements, geometric patterns, crystalline structures\n\nELEMENTS: Flowing data streams, holographic overlays, organic circuit patterns, luminescent accents, metallic textures, prismatic effects\n\nCOMPOSITION: Professional digital artwork, clean lines, balanced composition, high contrast, vibrant colors\n\nCOLORS: Electric blue, neon green, chrome silver, warm gold accents, deep purple highlights\n\nMOOD: Innovative, technological, ethereal, harmonious blend of nature and technology\n\nFORMAT: High-quality digital illustration suitable for social media",
+  "models_processed": [
+    "flux-1.1-pro"
+  ],
+  "successful_models": [
+    "flux-1.1-pro"
+  ],
+  "model_results": {
+    "flux-1.1-pro": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0wmEEKItfR_safer_flux11pro_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/C0wmEEKItfR_safer_flux11pro_v1.jpg",
+          "url": "https://replicate.delivery/xezq/BeRQHi2XDuUZcqzH6xXdAsbOmR5eKsIzEu90v9VVW8SHcF0UA/tmpy1byhysh.jpg",
+          "size_bytes": 267774,
+          "variation": 1,
+          "model_name": "flux-1.1-pro",
+          "model_short_name": "flux11pro",
+          "gridfs_id": "6842a50998e1bcc120876db7",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "flux-1.1-pro",
+              "model_version": "80a09d66baa990429c2f5ae8a4306bf778a1b3775afd01cc2cc8bdbe9033769c",
+              "model_description": "Flux 1.1 Pro - Advanced generation model",
+              "generation_cost": 0.005,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T10:21:29.814327",
+              "source_shortcode": "C0wmEEKItfR_safer",
+              "source_url": "https://instagram.com/p/C0wmEEKItfR_safer/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+              "source_shortcode": "C0wmEEKItfR_safer",
+              "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+              "file_size": 192890
+            },
+            "technical_info": {
+              "file_size_bytes": 267774,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/BeRQHi2XDuUZcqzH6xXdAsbOmR5eKsIzEu90v9VVW8SHcF0UA/tmpy1byhysh.jpg"
+            }
+          }
+        }
+      ],
+      "cost": 0.005,
+      "variations_count": 1
+    }
+  },
+  "total_variations_generated": 1,
+  "total_cost": 0.005,
+  "mongodb_connected": true,
+  "duration_seconds": 12.315454,
+  "timestamp": "2025-06-06T10:21:29.950042"
+}

@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-06-05T22:28:58.466883",
+  "images_found": 5,
+  "estimated_cost": 0.015,
+  "images": [
+    {
+      "shortcode": "C0wmEEKItfR",
+      "image_path": "downloaded_verify_images/verify_C0wmEEKItfR/sequential_C0wmEEKItfR_carousel_1.jpg",
+      "filename": "sequential_C0wmEEKItfR_carousel_1.jpg",
+      "size": "1080x1350",
+      "file_size": 216185,
+      "format": "JPEG",
+      "instagram_url": "https://instagram.com/p/C0wmEEKItfR/",
+      "metadata": {
+        "shortcode": "C0wmEEKItfR",
+        "total_extracted": 1,
+        "images": [
+          {
+            "index": 1,
+            "url": "https://instagram.fmla1-1.fna.fbcdn.net/v/t51.29350-15/409559782_7126317767427475_8842205567027522895_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_ht=instagram.fmla1-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2QEWLqZq95-7Kiukiy_M388tqkxwXW-FTxWwuVnP-93HQS_M_LSTuecq6FLdLLrSJvk&_nc_ohc=rLHGJyb81usQ7kNvwF6SOOe&_nc_gid=yOuM6UdtJhbIILDKDAvBvQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AfMfL2mzZ9tfk4be7V7WPhCCmeZJPZnH9NPhs74j58aAQw&oe=6847CF59&_nc_sid=d885a2",
+            "filename": "sequential_C0wmEEKItfR_carousel_1.jpg",
+            "size": 216185,
+            "hash": "df9cd52f4346b7bb70f6e8ab8ac02cd4",
+            "alt": "Photo by Jason Scarecrow on December 12, 2023."
+          }
+        ],
+        "timestamp": "2025-06-05 21:25:51",
+        "success": true,
+        "navigation_attempts": 3,
+        "extraction_method": "sequential_carousel_navigation",
+        "duration_seconds": 36.5
+      }
+    },
+    {
+      "shortcode": "C0xFHGOrBN7",
+      "image_path": "downloaded_verify_images/verify_C0xFHGOrBN7/sequential_C0xFHGOrBN7_carousel_1.jpg",
+      "filename": "sequential_C0xFHGOrBN7_carousel_1.jpg",
+      "size": "1411x1764",
+      "file_size": 283072,
+      "format": "JPEG",
+      "instagram_url": "https://instagram.com/p/C0xFHGOrBN7/",
+      "metadata": {
+        "shortcode": "C0xFHGOrBN7",
+        "total_extracted": 1,
+        "images": [
+          {
+            "index": 1,
+            "url": "https://instagram.fmla1-2.fna.fbcdn.net/v/t51.29350-15/409688197_950875209793155_6981069157937748850_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjE0MTF4MTc2NC5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=instagram.fmla1-2.fna.fbcdn.net&_nc_cat=103&_nc_oc=Q6cZ2QHRLx-PK4gm6hl9-M7xCGDrGmzBHVTqfF4bJ5phx9JQaZQj0Qs6Uu5bpvLvnZQl3hs&_nc_ohc=nKihT-cvaB0Q7kNvwFaPmKo&_nc_gid=4FFratb3GmAdsrGLqxKdww&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI1NjQwNjQ3ODk3NjY3NTI1Nw%3D%3D.3-ccb7-5&oh=00_AfOA6q7DP4qSWe8HzesTqVQRXh3Y15LFQVUyvq9PlenJRw&oe=6847C3F4&_nc_sid=10d13b",
+            "filename": "sequential_C0xFHGOrBN7_carousel_1.jpg",
+            "size": 283072,
+            "hash": "e2b56de36edfc2f32c4466b3987f0677",
+            "alt": "Photo by Fanthasia on December 12, 2023."
+          }
+        ],
+        "timestamp": "2025-06-05 21:25:08",
+        "success": true,
+        "navigation_attempts": 3,
+        "extraction_method": "sequential_carousel_navigation",
+        "duration_seconds": 36.36
+      }
+    },
+    {
+      "shortcode": "C0xMpxwKoxb",
+      "image_path": "downloaded_verify_images/verify_C0xMpxwKoxb/C0xMpxwKoxb_image_1.jpg",
+      "filename": "C0xMpxwKoxb_image_1.jpg",
+      "size": "960x1200",
+      "file_size": 145272,
+      "format": "JPEG",
+      "instagram_url": "https://instagram.com/p/C0xMpxwKoxb/",
+      "metadata": {}
+    },
+    {
+      "shortcode": "C0wysT_LC-L",
+      "image_path": "downloaded_verify_images/verify_C0wysT_LC-L/C0wysT_LC-L_image_1.jpg",
+      "filename": "C0wysT_LC-L_image_1.jpg",
+      "size": "1199x1498",
+      "file_size": 234779,
+      "format": "JPEG",
+      "instagram_url": "https://instagram.com/p/C0wysT_LC-L/",
+      "metadata": {}
+    },
+    {
+      "shortcode": "C0xLaimIm1B",
+      "image_path": "downloaded_verify_images/verify_C0xLaimIm1B/C0xLaimIm1B_image_1.jpg",
+      "filename": "C0xLaimIm1B_image_1.jpg",
+      "size": "1440x1800",
+      "file_size": 464550,
+      "format": "JPEG",
+      "instagram_url": "https://instagram.com/p/C0xLaimIm1B/",
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "success": false,
+  "shortcode": "C0wmEEKItfR_test",
+  "original_image": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/original_instagram_examples/instagram_production_C0wmEEKItfR_1.jpg",
+  "vlm_description": "Caption: Caption: a group of sci - fi characters standing in the rain",
+  "enhanced_prompt": "SiliconSentiments cyborg-nature fusion: Caption: Caption: a group of sci - fi characters standing in the rain\n\nBIOMECHANICAL ELEMENTS: Organic neural networks seamlessly integrated with robotic components, crystalline data streams flowing through synthetic veins, holographic forest canopy overlays, digital ivy growing on chrome surfaces\n\nNATURE FUSION: Bioluminescent moss circuits, flowering data nodes, cybernetic tree roots as neural pathways, synthetic DNA helixes, organic metal textures, living crystal formations, bio-digital ecosystem\n\nSCI-FI TECHNOLOGY: Advanced AI consciousness visualization, quantum computing matrices, nano-technology integration, plasma energy fields, metallic chrome surfaces, LED-lit mechanical joints, fiber optic nervous system\n\nVISUAL STYLE: Photorealistic digital art, cinematic lighting, volumetric fog effects, neon accent lighting, ultra-detailed textures, professional composition, 8K quality\n\nCOLOR PALETTE: Electric blues, neon greens, chrome silver, organic browns, plasma purple, bioluminescent cyan, metallic gold accents",
+  "models_processed": [
+    "flux-1.1-pro"
+  ],
+  "successful_models": [],
+  "model_results": {
+    "flux-1.1-pro": {
+      "success": false,
+      "error": "flux-1.1-pro generation failed: Error generating image: NSFW content detected."
+    }
+  },
+  "total_variations_generated": 0,
+  "total_cost": 0,
+  "mongodb_connected": true,
+  "duration_seconds": 12.922351,
+  "timestamp": "2025-06-06T10:00:20.662540"
+}

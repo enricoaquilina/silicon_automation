@@ -1,0 +1,211 @@
+{
+  "success": true,
+  "shortcode": "C0xFHGOrBN7_best",
+  "original_image": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+  "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a 3D rendering, giving it a futuristic and modern appearance. The face is the main focus of the image, with the woman's eyes, nose, and mouth prominently displayed. The background is dark, which adds to the dramatic and intriguing atmosphere of the piece.\n\nThe color scheme of the artwork is predominantly black and yellow, with some orange accents. The black background contrasts with the yellow and orange elements, creating a visually striking and bold composition. The use of these colors adds a sense of depth and complexity to the artwork, making it appear more intricate and detailed.\n\nThe artistic style of the piece is a mix of futuristic and modern elements, with the 3D rendering of the woman's face and the use of bold colors. The combination of these elements creates a unique and eye-catching visual experience, which could be further enhanced by adding more intricate details and textures to the artwork.\n\nTo create similar artwork, one could start by sketching out the basic outline of the woman's face, focusing on the key features such as the eyes, nose, and mouth. Then, use a 3D rendering software to bring the artwork to life, adding depth and dimension to the piece. Finally, experiment with different color schemes and artistic styles to achieve the desired visual effect and create a unique and memorable piece of digital art.",
+  "enhanced_prompt": "SiliconSentiments digital art transformation: Abstract interpretation of LLAVA-13B: The digital artwork features a woman's face with a 3D rendering, giving it a futuristic and modern appearance. The face is the main focus of the image, with the woman's eyes, nose, and mouth prominently displayed. The background is dark, which adds to the dramatic and intriguing atmosphere of the piece.\n\nThe color scheme of the artwork is predominantly black and yellow, with some orange accents. The black background contrasts with the yellow and orange elements, creating a visually striking and bold composition. The use of these colors adds a sense of depth and complexity to the artwork, making it appear more intricate and detailed.\n\nThe artistic style of the piece is a mix of futuristic and modern elements, with the 3D rendering of the woman's face and the use of bold colors. The combination of these elements creates a unique and eye-catching visual experience, which could be further enhanced by adding more intricate details and textures to the artwork.\n\nTo create similar artwork, one could start by sketching out the basic outline of the woman's face, focusing on the key features such as the eyes, nose, and mouth. Then, use a 3D rendering software to bring the artwork to life, adding depth and dimension to the piece. Finally, experiment with different color schemes and artistic styles to achieve the desired visual effect and create a unique and memorable piece of digital art.\n\nSTYLE: Futuristic digital illustration, technological aesthetics, nature-inspired elements, geometric patterns, crystalline structures\n\nELEMENTS: Flowing data streams, holographic overlays, organic circuit patterns, luminescent accents, metallic textures, prismatic effects\n\nCOMPOSITION: Professional digital artwork, clean lines, balanced composition, high contrast, vibrant colors\n\nCOLORS: Electric blue, neon green, chrome silver, warm gold accents, deep purple highlights\n\nMOOD: Innovative, technological, ethereal, harmonious blend of nature and technology\n\nFORMAT: High-quality digital illustration suitable for social media",
+  "models_processed": [
+    "flux-1.1-pro",
+    "sdxl"
+  ],
+  "successful_models": [
+    "flux-1.1-pro",
+    "sdxl"
+  ],
+  "model_results": {
+    "flux-1.1-pro": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_best_flux11pro_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_best_flux11pro_v1.jpg",
+          "url": "https://replicate.delivery/xezq/NPSfuf5vxrqHK04dM7bWNsSKlgPJwIW5U51e5fZYhn9T7XQTB/tmp296jkhiw.jpg",
+          "size_bytes": 163816,
+          "variation": 1,
+          "model_name": "flux-1.1-pro",
+          "model_short_name": "flux11pro",
+          "gridfs_id": "6842adb5b75f51f01e3916e8",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "flux-1.1-pro",
+              "model_version": "80a09d66baa990429c2f5ae8a4306bf778a1b3775afd01cc2cc8bdbe9033769c",
+              "model_description": "Flux 1.1 Pro - Advanced generation model",
+              "generation_cost": 0.005,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T10:58:29.700435",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_best/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a 3D rendering, giving it a futuristic and modern appearance. The face is the main focus of the image, with the woman's eyes, nose, and mouth prominently displayed. The background is dark, which adds to the dramatic and intriguing atmosphere of the piece.\n\nThe color scheme of the artwork is predominantly black and yellow, with some orange accents. The black background contrasts with the yellow and orange elements, creating a visually striking and bold composition. The use of these colors adds a sense of depth and complexity to the artwork, making it appear more intricate and detailed.\n\nThe artistic style of the piece is a mix of futuristic and modern elements, with the 3D rendering of the woman's face and the use of bold colors. The combination of these elements creates a unique and eye-catching visual experience, which could be further enhanced by adding more intricate details and textures to the artwork.\n\nTo create similar artwork, one could start by sketching out the basic outline of the woman's face, focusing on the key features such as the eyes, nose, and mouth. Then, use a 3D rendering software to bring the artwork to life, adding depth and dimension to the piece. Finally, experiment with different color schemes and artistic styles to achieve the desired visual effect and create a unique and memorable piece of digital art.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 163816,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/NPSfuf5vxrqHK04dM7bWNsSKlgPJwIW5U51e5fZYhn9T7XQTB/tmp296jkhiw.jpg"
+            }
+          }
+        }
+      ],
+      "cost": 0.005,
+      "variations_count": 1
+    },
+    "sdxl": {
+      "success": true,
+      "generated_files": [
+        {
+          "filename": "C0xFHGOrBN7_best_sdxl_v1.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_best_sdxl_v1.jpg",
+          "url": "https://replicate.delivery/xezq/uHNiAGw6uHIiN11emjR9nLSBxh1GaaMIrBdlfKObVh7GfLopA/out-0.png",
+          "size_bytes": 2056620,
+          "variation": 1,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842adcbb75f51f01e3916ea",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 1,
+              "generation_timestamp": "2025-06-06T10:58:50.955421",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_best/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a 3D rendering, giving it a futuristic and modern appearance. The face is the main focus of the image, with the woman's eyes, nose, and mouth prominently displayed. The background is dark, which adds to the dramatic and intriguing atmosphere of the piece.\n\nThe color scheme of the artwork is predominantly black and yellow, with some orange accents. The black background contrasts with the yellow and orange elements, creating a visually striking and bold composition. The use of these colors adds a sense of depth and complexity to the artwork, making it appear more intricate and detailed.\n\nThe artistic style of the piece is a mix of futuristic and modern elements, with the 3D rendering of the woman's face and the use of bold colors. The combination of these elements creates a unique and eye-catching visual experience, which could be further enhanced by adding more intricate details and textures to the artwork.\n\nTo create similar artwork, one could start by sketching out the basic outline of the woman's face, focusing on the key features such as the eyes, nose, and mouth. Then, use a 3D rendering software to bring the artwork to life, adding depth and dimension to the piece. Finally, experiment with different color schemes and artistic styles to achieve the desired visual effect and create a unique and memorable piece of digital art.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 2056620,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/uHNiAGw6uHIiN11emjR9nLSBxh1GaaMIrBdlfKObVh7GfLopA/out-0.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_best_sdxl_v2.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_best_sdxl_v2.jpg",
+          "url": "https://replicate.delivery/xezq/fRWvuezTP2iD9EWPeYAH0bLBU2Ivlnm2a8YCMlHNjpeb8XQTB/out-1.png",
+          "size_bytes": 1463416,
+          "variation": 2,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842adcbb75f51f01e3916ed",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 2,
+              "generation_timestamp": "2025-06-06T10:58:51.885531",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_best/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a 3D rendering, giving it a futuristic and modern appearance. The face is the main focus of the image, with the woman's eyes, nose, and mouth prominently displayed. The background is dark, which adds to the dramatic and intriguing atmosphere of the piece.\n\nThe color scheme of the artwork is predominantly black and yellow, with some orange accents. The black background contrasts with the yellow and orange elements, creating a visually striking and bold composition. The use of these colors adds a sense of depth and complexity to the artwork, making it appear more intricate and detailed.\n\nThe artistic style of the piece is a mix of futuristic and modern elements, with the 3D rendering of the woman's face and the use of bold colors. The combination of these elements creates a unique and eye-catching visual experience, which could be further enhanced by adding more intricate details and textures to the artwork.\n\nTo create similar artwork, one could start by sketching out the basic outline of the woman's face, focusing on the key features such as the eyes, nose, and mouth. Then, use a 3D rendering software to bring the artwork to life, adding depth and dimension to the piece. Finally, experiment with different color schemes and artistic styles to achieve the desired visual effect and create a unique and memorable piece of digital art.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1463416,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/fRWvuezTP2iD9EWPeYAH0bLBU2Ivlnm2a8YCMlHNjpeb8XQTB/out-1.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_best_sdxl_v3.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_best_sdxl_v3.jpg",
+          "url": "https://replicate.delivery/xezq/oYa77hoPy6LzP5tFtDNV0sMJXZDkQ5Of7a4m9HGwlaVjfF0UA/out-2.png",
+          "size_bytes": 1893401,
+          "variation": 3,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842adccb75f51f01e3916ef",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 3,
+              "generation_timestamp": "2025-06-06T10:58:52.901527",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_best/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a 3D rendering, giving it a futuristic and modern appearance. The face is the main focus of the image, with the woman's eyes, nose, and mouth prominently displayed. The background is dark, which adds to the dramatic and intriguing atmosphere of the piece.\n\nThe color scheme of the artwork is predominantly black and yellow, with some orange accents. The black background contrasts with the yellow and orange elements, creating a visually striking and bold composition. The use of these colors adds a sense of depth and complexity to the artwork, making it appear more intricate and detailed.\n\nThe artistic style of the piece is a mix of futuristic and modern elements, with the 3D rendering of the woman's face and the use of bold colors. The combination of these elements creates a unique and eye-catching visual experience, which could be further enhanced by adding more intricate details and textures to the artwork.\n\nTo create similar artwork, one could start by sketching out the basic outline of the woman's face, focusing on the key features such as the eyes, nose, and mouth. Then, use a 3D rendering software to bring the artwork to life, adding depth and dimension to the piece. Finally, experiment with different color schemes and artistic styles to achieve the desired visual effect and create a unique and memorable piece of digital art.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1893401,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/oYa77hoPy6LzP5tFtDNV0sMJXZDkQ5Of7a4m9HGwlaVjfF0UA/out-2.png"
+            }
+          }
+        },
+        {
+          "filename": "C0xFHGOrBN7_best_sdxl_v4.jpg",
+          "filepath": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_best_sdxl_v4.jpg",
+          "url": "https://replicate.delivery/xezq/Y7LLS0kogiKDHFBReT5AQkHMC7EvpxPnQl2ErEEWfKvGfLopA/out-3.png",
+          "size_bytes": 1297728,
+          "variation": 4,
+          "model_name": "sdxl",
+          "model_short_name": "sdxl",
+          "gridfs_id": "6842adcdb75f51f01e3916f2",
+          "metadata": {
+            "siliconsentiments_generation": {
+              "model_name": "sdxl",
+              "model_version": "7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+              "model_description": "Stable Diffusion XL",
+              "generation_cost": 0.002,
+              "variation_number": 4,
+              "generation_timestamp": "2025-06-06T10:58:53.824634",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "source_url": "https://instagram.com/p/C0xFHGOrBN7_best/",
+              "brand": "SiliconSentiments",
+              "pipeline_version": "enhanced_multi_model_v1.0"
+            },
+            "original_image": {
+              "source_path": "/Users/enricoaquilina/Documents/Fraud/silicon_automation/downloaded_verify_images/verify_C0xFHGOrBN7/C0xFHGOrBN7_original.png",
+              "source_shortcode": "C0xFHGOrBN7_best",
+              "vlm_description": "LLAVA-13B: The digital artwork features a woman's face with a 3D rendering, giving it a futuristic and modern appearance. The face is the main focus of the image, with the woman's eyes, nose, and mouth prominently displayed. The background is dark, which adds to the dramatic and intriguing atmosphere of the piece.\n\nThe color scheme of the artwork is predominantly black and yellow, with some orange accents. The black background contrasts with the yellow and orange elements, creating a visually striking and bold composition. The use of these colors adds a sense of depth and complexity to the artwork, making it appear more intricate and detailed.\n\nThe artistic style of the piece is a mix of futuristic and modern elements, with the 3D rendering of the woman's face and the use of bold colors. The combination of these elements creates a unique and eye-catching visual experience, which could be further enhanced by adding more intricate details and textures to the artwork.\n\nTo create similar artwork, one could start by sketching out the basic outline of the woman's face, focusing on the key features such as the eyes, nose, and mouth. Then, use a 3D rendering software to bring the artwork to life, adding depth and dimension to the piece. Finally, experiment with different color schemes and artistic styles to achieve the desired visual effect and create a unique and memorable piece of digital art.",
+              "file_size": 71584
+            },
+            "technical_info": {
+              "file_size_bytes": 1297728,
+              "format": "JPEG",
+              "generated_url": "https://replicate.delivery/xezq/Y7LLS0kogiKDHFBReT5AQkHMC7EvpxPnQl2ErEEWfKvGfLopA/out-3.png"
+            }
+          }
+        }
+      ],
+      "cost": 0.008,
+      "variations_count": 4
+    }
+  },
+  "total_variations_generated": 5,
+  "total_cost": 0.013000000000000001,
+  "mongodb_connected": true,
+  "duration_seconds": 45.513517,
+  "timestamp": "2025-06-06T10:58:53.937504"
+}

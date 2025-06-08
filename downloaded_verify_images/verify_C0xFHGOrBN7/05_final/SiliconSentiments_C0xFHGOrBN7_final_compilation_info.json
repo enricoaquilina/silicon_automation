@@ -1,0 +1,24 @@
+{
+  "final_compilation": {
+    "filename": "SiliconSentiments_C0xFHGOrBN7_final_compilation.mp4",
+    "duration_seconds": 10.397110000000001,
+    "file_size_bytes": 3264025,
+    "file_size_mb": 3.11,
+    "input_videos_count": 5,
+    "creation_timestamp": "2025-06-06T13:08:52.516433"
+  },
+  "source_videos": [
+    "C0xFHGOrBN7_multimedia_recraft_v1_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_recraft_v2_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_recraft_v3_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_recraft_v4_hd_video_with_audio.mp4",
+    "C0xFHGOrBN7_multimedia_test_recraft_v1_hd_video_with_audio.mp4"
+  ],
+  "workflow_summary": {
+    "pipeline": "Upscaled Images \u2192 HD Videos \u2192 Audio Overlay \u2192 Final Compilation",
+    "brand": "SiliconSentiments",
+    "ready_for_deployment": true,
+    "instagram_compatible": true,
+    "quality": "Professional HD with ambient audio"
+  }
+}
