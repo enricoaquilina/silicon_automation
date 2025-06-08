@@ -1,0 +1,285 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ master, main, develop ]
+  pull_request:
+    branches: [ master, main, develop ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, 3.10, 3.11, 3.12]
+        mongodb-version: [5.0, 6.0, 7.0]
+    
+    services:
+      mongodb:
+        image: mongo:${{ matrix.mongodb-version }}
+        env:
+          MONGO_INITDB_ROOT_USERNAME: testuser
+          MONGO_INITDB_ROOT_PASSWORD: testpass
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --eval 'db.adminCommand(\"ping\")'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt', 'tests/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y mongodb-clients
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r tests/requirements.txt
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        if [ -f mcp_mongodb_server/requirements.txt ]; then pip install -r mcp_mongodb_server/requirements.txt; fi
+
+    - name: Wait for MongoDB
+      run: |
+        until mongosh mongodb://testuser:testpass@localhost:27017/admin --eval "print('MongoDB is ready')"; do
+          echo "Waiting for MongoDB..."
+          sleep 2
+        done
+
+    - name: Set up test environment
+      run: |
+        export MONGODB_URI="mongodb://testuser:testpass@localhost:27017/"
+        export MONGODB_DATABASE="test_silicon_automation"
+        
+        # Create test configuration
+        mkdir -p test_config
+        cat > test_config/config.json << EOF
+        {
+          "mongodb": {
+            "uri": "mongodb://testuser:testpass@localhost:27017/",
+            "database": "test_silicon_automation"
+          },
+          "image_generation": {
+            "providers": {
+              "test": {
+                "enabled": true,
+                "api_token": "test_token"
+              }
+            }
+          }
+        }
+        EOF
+
+    - name: Run unit tests
+      run: |
+        export PYTHONPATH="${PYTHONPATH}:${PWD}/mcp_mongodb_server"
+        export MONGODB_URI="mongodb://testuser:testpass@localhost:27017/"
+        pytest tests/ -v --tb=short --cov=mcp_mongodb_server --cov-report=xml --cov-report=html
+
+    - name: Run integration tests
+      run: |
+        export PYTHONPATH="${PYTHONPATH}:${PWD}/mcp_mongodb_server"
+        export MONGODB_URI="mongodb://testuser:testpass@localhost:27017/"
+        pytest tests/ -v -m "integration" --tb=short
+
+    - name: Run performance tests
+      run: |
+        export PYTHONPATH="${PYTHONPATH}:${PWD}/mcp_mongodb_server"
+        pytest tests/ -v -m "slow" --tb=short
+      continue-on-error: true
+
+    - name: Upload coverage reports
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
+    - name: Generate test report
+      uses: dorny/test-reporter@v1
+      if: always()
+      with:
+        name: Test Results (Python ${{ matrix.python-version }}, MongoDB ${{ matrix.mongodb-version }})
+        path: pytest-results.xml
+        reporter: java-junit
+        fail-on-error: false
+
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+
+    - name: Install linting dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 black isort mypy
+
+    - name: Run Black code formatter check
+      run: |
+        black --check --diff mcp_mongodb_server/ tests/
+      continue-on-error: true
+
+    - name: Run isort import sorting check
+      run: |
+        isort --check-only --diff mcp_mongodb_server/ tests/
+      continue-on-error: true
+
+    - name: Run flake8 linting
+      run: |
+        flake8 mcp_mongodb_server/ tests/ --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 mcp_mongodb_server/ tests/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Run mypy type checking
+      run: |
+        mypy mcp_mongodb_server/ --ignore-missing-imports
+      continue-on-error: true
+
+  security:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+
+    - name: Install security scanning tools
+      run: |
+        python -m pip install --upgrade pip
+        pip install bandit safety
+
+    - name: Run Bandit security linter
+      run: |
+        bandit -r mcp_mongodb_server/ -f json -o bandit-report.json
+      continue-on-error: true
+
+    - name: Run Safety dependency check
+      run: |
+        safety check --json --output safety-report.json
+      continue-on-error: true
+
+    - name: Upload security reports
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: security-reports
+        path: |
+          bandit-report.json
+          safety-report.json
+
+  build-docker:
+    runs-on: ubuntu-latest
+    needs: [test, lint]
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build Docker image (test)
+      run: |
+        cat > Dockerfile << EOF
+        FROM python:3.11-slim
+
+        WORKDIR /app
+
+        # Install system dependencies
+        RUN apt-get update && apt-get install -y \\
+            gcc \\
+            && rm -rf /var/lib/apt/lists/*
+
+        # Copy requirements and install Python dependencies
+        COPY mcp_mongodb_server/requirements.txt ./requirements.txt
+        COPY tests/requirements.txt ./test-requirements.txt
+        RUN pip install --no-cache-dir -r requirements.txt -r test-requirements.txt
+
+        # Copy application code
+        COPY mcp_mongodb_server/ ./mcp_mongodb_server/
+        COPY tests/ ./tests/
+
+        # Set environment variables
+        ENV PYTHONPATH="/app/mcp_mongodb_server"
+
+        # Health check
+        HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \\
+          CMD python -c "import pymongo; pymongo.MongoClient()" || exit 1
+
+        # Default command
+        CMD ["python", "mcp_mongodb_server/server.py"]
+        EOF
+
+        docker build -t silicon-automation:test .
+
+  deploy-staging:
+    runs-on: ubuntu-latest
+    needs: [test, lint, security, build-docker]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+    environment: staging
+    
+    steps:
+    - name: Deploy to staging
+      run: |
+        echo "🚀 Deploying to staging environment..."
+        echo "This would typically deploy to your staging server"
+        # Add your staging deployment commands here
+
+  deploy-production:
+    runs-on: ubuntu-latest
+    needs: [test, lint, security, build-docker]
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
+    environment: production
+    
+    steps:
+    - name: Deploy to production
+      run: |
+        echo "🚀 Deploying to production environment..."
+        echo "This would typically deploy to your production server"
+        # Add your production deployment commands here
+
+  cleanup:
+    runs-on: ubuntu-latest
+    needs: [test, lint, security]
+    if: always()
+    
+    steps:
+    - name: Cleanup artifacts
+      run: |
+        echo "🧹 Cleaning up temporary artifacts..."
+        # Add cleanup commands if needed
