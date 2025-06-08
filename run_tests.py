@@ -17,6 +17,22 @@ import argparse
 from pathlib import Path
 
 
+def get_python_executable():
+    """Get the appropriate Python executable"""
+    # Try python first (GitHub Actions), then python3 (most Linux systems)
+    for python_cmd in ['python', 'python3']:
+        try:
+            result = subprocess.run([python_cmd, '--version'], 
+                                  capture_output=True, text=True)
+            if result.returncode == 0:
+                return python_cmd
+        except FileNotFoundError:
+            continue
+    
+    # Fallback to sys.executable
+    return sys.executable
+
+
 def run_command(cmd, description=""):
     """Run a shell command and handle errors"""
     if description:
@@ -50,23 +66,37 @@ def setup_environment():
     print(f"🔧 Environment setup complete")
     print(f"   PYTHONPATH: {os.environ.get('PYTHONPATH')}")
     print(f"   MONGODB_URI: {os.environ.get('MONGODB_URI')}")
+    print(f"   Python executable: {get_python_executable()}")
 
 
 def install_dependencies():
     """Install test dependencies"""
+    python_cmd = get_python_executable()
     test_requirements = Path("tests/requirements.txt")
     mcp_requirements = Path("mcp_mongodb_server/requirements.txt")
     
     commands = [
-        ([sys.executable, "-m", "pip", "install", "--upgrade", "pip"], "Upgrading pip"),
+        ([python_cmd, "-m", "pip", "install", "--upgrade", "pip"], "Upgrading pip"),
     ]
     
+    # Check if we're in an externally managed environment
+    try:
+        result = subprocess.run([python_cmd, "-m", "pip", "install", "--help"], 
+                               capture_output=True, text=True)
+        use_break_system = "--break-system-packages" in result.stdout
+    except:
+        use_break_system = False
+    
+    pip_args = [python_cmd, "-m", "pip", "install"]
+    if use_break_system:
+        pip_args.append("--break-system-packages")
+    
     if test_requirements.exists():
-        commands.append(([sys.executable, "-m", "pip", "install", "-r", str(test_requirements)], 
+        commands.append((pip_args + ["-r", str(test_requirements)], 
                         "Installing test dependencies"))
     
     if mcp_requirements.exists():
-        commands.append(([sys.executable, "-m", "pip", "install", "-r", str(mcp_requirements)], 
+        commands.append((pip_args + ["-r", str(mcp_requirements)], 
                         "Installing MCP server dependencies"))
     
     for cmd, desc in commands:
@@ -78,8 +108,9 @@ def install_dependencies():
 
 def run_unit_tests():
     """Run unit tests only"""
+    python_cmd = get_python_executable()
     cmd = [
-        sys.executable, "-m", "pytest",
+        python_cmd, "-m", "pytest",
         "tests/",
         "-m", "not slow and not integration and not browser",
         "-v"
@@ -89,8 +120,9 @@ def run_unit_tests():
 
 def run_integration_tests():
     """Run integration tests"""
+    python_cmd = get_python_executable()
     cmd = [
-        sys.executable, "-m", "pytest", 
+        python_cmd, "-m", "pytest", 
         "tests/",
         "-m", "integration",
         "-v"
@@ -100,8 +132,9 @@ def run_integration_tests():
 
 def run_performance_tests():
     """Run performance tests"""
+    python_cmd = get_python_executable()
     cmd = [
-        sys.executable, "-m", "pytest",
+        python_cmd, "-m", "pytest",
         "tests/",
         "-m", "slow or performance", 
         "-v"
@@ -111,8 +144,9 @@ def run_performance_tests():
 
 def run_all_tests():
     """Run all tests"""
+    python_cmd = get_python_executable()
     cmd = [
-        sys.executable, "-m", "pytest",
+        python_cmd, "-m", "pytest",
         "tests/",
         "-v"
     ]
@@ -121,8 +155,9 @@ def run_all_tests():
 
 def run_coverage_report():
     """Generate and display coverage report"""
+    python_cmd = get_python_executable()
     cmd = [
-        sys.executable, "-m", "pytest",
+        python_cmd, "-m", "pytest",
         "tests/",
         "--cov=mcp_mongodb_server",
         "--cov-report=term-missing",
@@ -141,11 +176,12 @@ def run_coverage_report():
 
 def run_lint():
     """Run code linting"""
+    python_cmd = get_python_executable()
     commands = [
-        ([sys.executable, "-m", "flake8", "mcp_mongodb_server/", "tests/", 
+        ([python_cmd, "-m", "flake8", "mcp_mongodb_server/", "tests/", 
           "--count", "--select=E9,F63,F7,F82", "--show-source", "--statistics"], 
          "Running flake8 (critical errors)"),
-        ([sys.executable, "-m", "flake8", "mcp_mongodb_server/", "tests/",
+        ([python_cmd, "-m", "flake8", "mcp_mongodb_server/", "tests/",
           "--count", "--exit-zero", "--max-complexity=10", "--max-line-length=127", "--statistics"],
          "Running flake8 (all checks)")
     ]

@@ -91,22 +91,22 @@ class TestImageGenerationIntegration:
     @pytest.mark.asyncio
     async def test_initialize_generation_service_success(self, mock_mongodb_client, sample_config):
         """Test successful initialization of generation service"""
-        with patch('image_generation_tools.IMAGE_GENERATION_AVAILABLE', True), \
-             patch('image_generation_tools.MultiProviderGenerationService') as mock_service:
-            
-            from image_generation_tools import ImageGenerationIntegration
-            
-            # Mock the service initialization
-            mock_instance = AsyncMock()
-            mock_instance.initialize.return_value = True
-            mock_service.return_value = mock_instance
-            
-            integration = ImageGenerationIntegration(mock_mongodb_client, sample_config)
-            result = await integration.initialize_generation_service()
-            
-            assert result is True
-            assert integration.generation_service == mock_instance
-            mock_instance.initialize.assert_called_once()
+        with patch('image_generation_tools.IMAGE_GENERATION_AVAILABLE', True):
+            # Mock the imports directly since they might not exist in the module
+            with patch.object(sys.modules['image_generation_tools'], 'MultiProviderGenerationService', create=True) as mock_service:
+                from image_generation_tools import ImageGenerationIntegration
+                
+                # Mock the service initialization
+                mock_instance = AsyncMock()
+                mock_instance.initialize.return_value = True
+                mock_service.return_value = mock_instance
+                
+                integration = ImageGenerationIntegration(mock_mongodb_client, sample_config)
+                result = await integration.initialize_generation_service()
+                
+                assert result is True
+                assert integration.generation_service == mock_instance
+                mock_instance.initialize.assert_called_once()
     
     @pytest.mark.asyncio
     async def test_initialize_generation_service_unavailable(self, mock_mongodb_client, sample_config):
@@ -138,29 +138,31 @@ class TestImageGenerationIntegration:
     async def test_generate_missing_images_success(self, mock_mongodb_client, sample_config, 
                                                   sample_posts_data, mock_generation_response):
         """Test successful image generation for missing images"""
-        with patch('image_generation_tools.IMAGE_GENERATION_AVAILABLE', True), \
-             patch('image_generation_tools.MultiProviderGenerationService'), \
-             patch('image_generation_tools.GenerationRequest') as mock_request:
-            
-            from image_generation_tools import ImageGenerationIntegration
-            
-            integration = ImageGenerationIntegration(mock_mongodb_client, sample_config)
-            
-            # Mock the generation service
-            mock_service = AsyncMock()
-            mock_service.generate_image.return_value = mock_generation_response
-            integration.generation_service = mock_service
-            
-            # Mock the update method
-            integration._update_post_with_generation = AsyncMock(return_value=True)
-            
-            result = await integration.generate_missing_images(sample_posts_data, max_generations=2)
-            
-            assert result["attempted_generations"] == 2
-            assert result["successful_generations"] == 2
-            assert result["failed_generations"] == 0
-            assert result["total_cost"] == 0.10  # 2 * 0.05
-            assert len(result["generation_details"]) == 2
+        with patch('image_generation_tools.IMAGE_GENERATION_AVAILABLE', True):
+            # Mock the imports that might not exist
+            with patch.object(sys.modules['image_generation_tools'], 'MultiProviderGenerationService', create=True), \
+                 patch.object(sys.modules['image_generation_tools'], 'GenerationRequest', create=True) as mock_request, \
+                 patch.object(sys.modules['image_generation_tools'], 'ProviderStrategy', create=True) as mock_strategy:
+                
+                from image_generation_tools import ImageGenerationIntegration
+                
+                integration = ImageGenerationIntegration(mock_mongodb_client, sample_config)
+                
+                # Mock the generation service
+                mock_service = AsyncMock()
+                mock_service.generate_image.return_value = mock_generation_response
+                integration.generation_service = mock_service
+                
+                # Mock the update method
+                integration._update_post_with_generation = AsyncMock(return_value=True)
+                
+                result = await integration.generate_missing_images(sample_posts_data, max_generations=2)
+                
+                assert result["attempted_generations"] == 2
+                assert result["successful_generations"] == 2
+                assert result["failed_generations"] == 0
+                assert result["total_cost"] == 0.10  # 2 * 0.05
+                assert len(result["generation_details"]) == 2
     
     @pytest.mark.asyncio
     async def test_generate_missing_images_no_service(self, mock_mongodb_client, sample_config, sample_posts_data):
